@@ -17,45 +17,44 @@
         "documentation": "Converts a string to a rotation (quaternion), returns nil if invalid"
     },
     "@sl-slua/global/bit32": {
-        "documentation": "Bitwise operations library",
-        "summary": "Bitwise operations library",
+        "documentation": "Bitwise operations library.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/bit32/"
     },
     "@sl-slua/global/bit32.arshift": {
-        "documentation": "Arithmetic right shift"
+        "documentation": "Shifts n by i bits to the right. If i is negative, a left shift is performed.\\\\nDoes an arithmetic shift: The most significant bit of n is propagated during the shift."
     },
     "@sl-slua/global/bit32.band": {
-        "documentation": "Bitwise AND of all arguments"
+        "documentation": "Performs a bitwise AND operation on input numbers."
     },
     "@sl-slua/global/bit32.bnot": {
-        "documentation": "Bitwise NOT"
+        "documentation": "Returns the bitwise negation of the input number."
     },
     "@sl-slua/global/bit32.bor": {
-        "documentation": "Bitwise OR of all arguments"
+        "documentation": "Performs a bitwise OR operation on input numbers."
     },
     "@sl-slua/global/bit32.bxor": {
-        "documentation": "Bitwise XOR of all arguments"
+        "documentation": "Performs a bitwise XOR operation on input numbers."
     },
     "@sl-slua/global/bit32.btest": {
-        "documentation": "Returns true if bitwise AND of all arguments is not zero"
+        "documentation": "Performs a bitwise AND operation on input numbers.\\\\nReturns true if result is non-zero."
     },
     "@sl-slua/global/bit32.extract": {
         "documentation": "Extracts bits from n at position field with width"
     },
     "@sl-slua/global/bit32.lrotate": {
-        "documentation": "Left rotate"
+        "documentation": "Rotates n by i bits to the left. If i is negative, a right rotate is performed."
     },
     "@sl-slua/global/bit32.lshift": {
-        "documentation": "Left shift"
+        "documentation": "Shifts n by i bits to the left. If i is negative, a right shift is performed."
     },
     "@sl-slua/global/bit32.replace": {
         "documentation": "Replaces bits in n at position field with width using value v"
     },
     "@sl-slua/global/bit32.rrotate": {
-        "documentation": "Right rotate"
+        "documentation": "Rotates n by i bits to the right. If i is negative, a left rotate is performed."
     },
     "@sl-slua/global/bit32.rshift": {
-        "documentation": "Right shift"
+        "documentation": "Shifts n by i bits to the right. If i is negative, a left shift is performed."
     },
     "@sl-slua/global/bit32.countlz": {
         "documentation": "Count leading zeros"
@@ -67,139 +66,134 @@
         "documentation": "Swap byte order"
     },
     "@sl-slua/global/buffer": {
-        "documentation": "Buffer manipulation library for binary data",
-        "summary": "Buffer manipulation library for binary data"
+        "documentation": "Buffer manipulation library for binary data."
     },
     "@sl-slua/global/buffer.create": {
-        "documentation": "Creates a new buffer of the specified size"
+        "documentation": "Creates a buffer of the requested size with all bytes initialized to 0."
     },
     "@sl-slua/global/buffer.fromstring": {
-        "documentation": "Creates a buffer from a string"
+        "documentation": "Creates a buffer initialized to the contents of the string."
     },
     "@sl-slua/global/buffer.tostring": {
-        "documentation": "Converts buffer to string"
+        "documentation": "Returns the buffer data as a string."
     },
     "@sl-slua/global/buffer.readi8": {
-        "documentation": "Read signed 8-bit integer"
+        "documentation": "Reads a signed 8-bit integer from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readu8": {
-        "documentation": "Read unsigned 8-bit integer"
+        "documentation": "Reads an unsigned 8-bit integer from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readi16": {
-        "documentation": "Read signed 16-bit integer"
+        "documentation": "Reads a signed 16-bit integer from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readu16": {
-        "documentation": "Read unsigned 16-bit integer"
+        "documentation": "Reads an unsigned 16-bit integer from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readi32": {
-        "documentation": "Read signed 32-bit integer"
+        "documentation": "Reads a signed 32-bit integer from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readu32": {
-        "documentation": "Read unsigned 32-bit integer"
+        "documentation": "Reads an unsigned 32-bit integer from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readf32": {
-        "documentation": "Read 32-bit float"
+        "documentation": "Reads a 32-bit floating-point number from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readf64": {
-        "documentation": "Read 64-bit float"
+        "documentation": "Reads a 64-bit floating-point number from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writei8": {
-        "documentation": "Write signed 8-bit integer"
+        "documentation": "Writes a signed 8-bit integer to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writeu8": {
-        "documentation": "Write unsigned 8-bit integer"
+        "documentation": "Writes an unsigned 8-bit integer to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writei16": {
-        "documentation": "Write signed 16-bit integer"
+        "documentation": "Writes a signed 16-bit integer to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writeu16": {
-        "documentation": "Write unsigned 16-bit integer"
+        "documentation": "Writes an unsigned 16-bit integer to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writei32": {
-        "documentation": "Write signed 32-bit integer"
+        "documentation": "Writes a signed 32-bit integer to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writeu32": {
-        "documentation": "Write unsigned 32-bit integer"
+        "documentation": "Writes an unsigned 32-bit integer to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writef32": {
-        "documentation": "Write 32-bit float"
+        "documentation": "Writes a 32-bit floating-point number to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writef64": {
-        "documentation": "Write 64-bit float"
+        "documentation": "Writes a 64-bit floating-point number to the buffer at the given offset."
     },
     "@sl-slua/global/buffer.readstring": {
-        "documentation": "Read string from buffer"
+        "documentation": "Reads a string of the given length from the buffer at the specified offset."
     },
     "@sl-slua/global/buffer.writestring": {
-        "documentation": "Write string to buffer"
+        "documentation": "Writes data from a string into the buffer at the specified offset."
     },
     "@sl-slua/global/buffer.len": {
-        "documentation": "Returns the length of the buffer"
+        "documentation": "Returns the size of the buffer in bytes."
     },
     "@sl-slua/global/buffer.copy": {
-        "documentation": "Copy data from source buffer to target buffer"
+        "documentation": "Copies bytes from the source buffer into the target buffer."
     },
     "@sl-slua/global/buffer.fill": {
-        "documentation": "Fill buffer with a value"
+        "documentation": "Fills the buffer with the specified value starting at the given offset."
     },
     "@sl-slua/global/buffer.readbits": {
-        "documentation": "Read bits from buffer"
+        "documentation": "Reads up to 32 bits from the buffer at the given offset."
     },
     "@sl-slua/global/buffer.writebits": {
-        "documentation": "Write bits to buffer"
+        "documentation": "Writes up to 32 bits to the buffer at the given offset."
     },
     "@sl-slua/global/coroutine": {
-        "documentation": "Coroutine manipulation library",
-        "summary": "Coroutine manipulation library"
+        "documentation": "Coroutine manipulation library."
     },
     "@sl-slua/global/coroutine.create": {
-        "documentation": "Creates a new coroutine from a function"
+        "documentation": "Returns a new coroutine that, when resumed, will run function f."
     },
     "@sl-slua/global/coroutine.resume": {
-        "documentation": "Resumes a coroutine, returns success and results"
+        "documentation": "Resumes a coroutine, returning true and results if successful, or false and an error."
     },
     "@sl-slua/global/coroutine.running": {
-        "documentation": "Returns the running coroutine, or nil if called from main thread"
+        "documentation": "Returns the currently running coroutine, or nil if called from in the main coroutine."
     },
     "@sl-slua/global/coroutine.status": {
-        "documentation": "Returns the status of a coroutine"
+        "documentation": "Returns the status of the coroutine: \"running\", \"suspended\", \"normal\", or \"dead\"."
     },
     "@sl-slua/global/coroutine.wrap": {
-        "documentation": "Creates a coroutine and returns a function that resumes it"
+        "documentation": "Creates a coroutine and returns a function that resumes it."
     },
     "@sl-slua/global/coroutine.yield": {
-        "documentation": "Suspends the coroutine and returns values to resume"
+        "documentation": "Yields the current coroutine, passing arguments to the resuming code."
     },
     "@sl-slua/global/coroutine.isyieldable": {
-        "documentation": "Returns true if the coroutine can yield"
+        "documentation": "Returns true if the currently running coroutine can yield."
     },
     "@sl-slua/global/coroutine.close": {
-        "documentation": "Closes a coroutine, returns success and optional error message"
+        "documentation": "Closes a coroutine, returning true if successful or false and an error."
     },
     "@sl-slua/global/debug": {
-        "documentation": "Debug library for introspection",
-        "summary": "Debug library for introspection"
+        "documentation": "Debug library for introspection."
     },
     "@sl-slua/global/debug.info": {
-        "documentation": "Returns information about a function or stack level"
+        "documentation": "Returns information about a stack frame or function based on specified format."
     },
     "@sl-slua/global/debug.traceback": {
-        "documentation": "Returns a string with a traceback of the call stack"
+        "documentation": "Returns a human-readable call stack starting from the specified level."
     },
     "@sl-slua/global/llbase64": {
-        "documentation": "Base64 encoding/decoding library",
-        "summary": "Base64 encoding/decoding library",
+        "documentation": "Base64 encoding/decoding library.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/llbase64/"
     },
     "@sl-slua/global/llbase64.encode": {
         "documentation": "Encodes a string or buffer to base64"
     },
     "@sl-slua/global/llbase64.decode": {
-        "documentation": "Decodes a base64 string to a string"
+        "documentation": "Decodes a base64 string to a string, or buffer if asBuffer is true. The output is truncated at the first decoding error."
     },
     "@sl-slua/global/lljson": {
-        "documentation": "JSON encoding/decoding library for Second Life",
-        "summary": "JSON encoding/decoding library for Second Life",
+        "documentation": "JSON encoding/decoding library for Second Life.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/lljson/"
     },
     "@sl-slua/global/lljson.null": {
@@ -221,20 +215,19 @@
         "documentation": "Version of the lljson library"
     },
     "@sl-slua/global/lljson.encode": {
-        "documentation": "Encodes a Lua value as JSON"
+        "documentation": "Encodes a Lua value as JSON. Raises an error if value contains unsupported types."
     },
     "@sl-slua/global/lljson.decode": {
-        "documentation": "Decodes a JSON string to a Lua value"
+        "documentation": "Decodes a JSON string to a Lua value. Raises an error if JSON is invalid."
     },
     "@sl-slua/global/lljson.slencode": {
-        "documentation": "Encodes a Lua value as JSON preserving SL types. Use tight to encode more compactly."
+        "documentation": "Encodes a Lua value as JSON, preserving SL types. Use tight to encode more compactly. Raises an error if value contains unsupported types."
     },
     "@sl-slua/global/lljson.sldecode": {
-        "documentation": "Decodes a JSON string to a Lua value preserving SL types"
+        "documentation": "Decodes a JSON string to a Lua value, preserving SL types. Raises an error if JSON is invalid."
     },
     "@sl-slua/global/math": {
-        "documentation": "Mathematical functions library",
-        "summary": "Mathematical functions library"
+        "documentation": "Mathematical functions library."
     },
     "@sl-slua/global/math.pi": {
         "documentation": "The value of pi"
@@ -243,263 +236,259 @@
         "documentation": "A value larger than any other numeric value (infinity)"
     },
     "@sl-slua/global/math.abs": {
-        "documentation": "Returns the absolute value of x"
+        "documentation": "Returns the absolute value of n."
     },
     "@sl-slua/global/math.acos": {
-        "documentation": "Returns the arc cosine of x (in radians)"
+        "documentation": "Returns the arc cosine of n in radians."
     },
     "@sl-slua/global/math.asin": {
-        "documentation": "Returns the arc sine of x (in radians)"
+        "documentation": "Returns the arc sine of n in radians."
     },
     "@sl-slua/global/math.atan": {
-        "documentation": "Returns the arc tangent of x (in radians)"
+        "documentation": "Returns the arc tangent of n in radians."
     },
     "@sl-slua/global/math.atan2": {
-        "documentation": "Returns the arc tangent of y/x (in radians), using the signs to determine the quadrant"
+        "documentation": "Returns the arc tangent of y/x in radians, using the signs to determine the quadrant."
     },
     "@sl-slua/global/math.ceil": {
-        "documentation": "Returns the smallest integer larger than or equal to x"
+        "documentation": "Returns the smallest integer larger than or equal to n."
     },
     "@sl-slua/global/math.clamp": {
-        "documentation": "Returns n clamped between min and max"
+        "documentation": "Returns n clamped between min and max."
     },
     "@sl-slua/global/math.cos": {
-        "documentation": "Returns the cosine of x (x in radians)"
+        "documentation": "Returns the cosine of n (n is in radians)."
     },
     "@sl-slua/global/math.cosh": {
-        "documentation": "Returns the hyperbolic cosine of x"
+        "documentation": "Returns the hyperbolic cosine of n."
     },
     "@sl-slua/global/math.deg": {
-        "documentation": "Converts x from radians to degrees"
+        "documentation": "Converts n from radians to degrees."
     },
     "@sl-slua/global/math.exp": {
-        "documentation": "Returns e^x"
+        "documentation": "Returns the base-e exponent of n."
     },
     "@sl-slua/global/math.floor": {
-        "documentation": "Returns the largest integer smaller than or equal to x"
+        "documentation": "Returns the largest integer smaller than or equal to n."
     },
     "@sl-slua/global/math.fmod": {
-        "documentation": "Returns the remainder of x/y that rounds towards zero"
+        "documentation": "Returns the remainder of x modulo y, rounded towards zero."
     },
     "@sl-slua/global/math.frexp": {
-        "documentation": "Returns m and e such that x = m * 2^e"
+        "documentation": "Returns m and e such that n = m * 2^e."
     },
     "@sl-slua/global/math.ldexp": {
-        "documentation": "Returns m * 2^e"
+        "documentation": "Returns s * 2^e."
     },
     "@sl-slua/global/math.lerp": {
-        "documentation": "Linear interpolation between a and b by t"
+        "documentation": "Linearly interpolates between a and b using factor t."
     },
     "@sl-slua/global/math.log": {
-        "documentation": "Returns the logarithm of x in the given base (default e)"
+        "documentation": "Returns the logarithm of n in the given base (default e)."
     },
     "@sl-slua/global/math.log10": {
-        "documentation": "Returns the base-10 logarithm of x"
+        "documentation": "Returns the base-10 logarithm of n."
     },
     "@sl-slua/global/math.map": {
-        "documentation": "Maps x from input range to output range"
+        "documentation": "Maps n from input range to output range."
     },
     "@sl-slua/global/math.max": {
-        "documentation": "Returns the maximum value among the arguments"
+        "documentation": "Returns the maximum value from the given numbers."
     },
     "@sl-slua/global/math.min": {
-        "documentation": "Returns the minimum value among the arguments"
+        "documentation": "Returns the minimum value from the given numbers."
     },
     "@sl-slua/global/math.modf": {
-        "documentation": "Returns the integer and fractional parts of x"
+        "documentation": "Returns the integer and fractional parts of n."
     },
     "@sl-slua/global/math.noise": {
-        "documentation": "Returns Perlin noise value for the given coordinates"
+        "documentation": "Returns Perlin noise value for the point (x, y, z)."
     },
     "@sl-slua/global/math.pow": {
-        "documentation": "Returns base^exponent"
+        "documentation": "Returns base to the power of exponent."
     },
     "@sl-slua/global/math.rad": {
-        "documentation": "Converts x from degrees to radians"
+        "documentation": "Converts n from degrees to radians."
     },
     "@sl-slua/global/math.random": {
-        "documentation": "Returns a pseudo-random number"
+        "documentation": "Returns a random number within the given range."
     },
     "@sl-slua/global/math.randomseed": {
-        "documentation": "Sets the seed for the pseudo-random generator"
+        "documentation": "Sets the seed for the random number generator."
     },
     "@sl-slua/global/math.round": {
-        "documentation": "Returns x rounded to the nearest integer"
+        "documentation": "Rounds n to the nearest integer."
     },
     "@sl-slua/global/math.sign": {
-        "documentation": "Returns -1, 0, or 1 depending on the sign of x"
+        "documentation": "Returns -1 if n is negative, 1 if positive, and 0 if zero."
     },
     "@sl-slua/global/math.sin": {
-        "documentation": "Returns the sine of x (x in radians)"
+        "documentation": "Returns the sine of n (n is in radians)."
     },
     "@sl-slua/global/math.sinh": {
-        "documentation": "Returns the hyperbolic sine of x"
+        "documentation": "Returns the hyperbolic sine of n."
     },
     "@sl-slua/global/math.sqrt": {
-        "documentation": "Returns the square root of x"
+        "documentation": "Returns the square root of n."
     },
     "@sl-slua/global/math.tan": {
-        "documentation": "Returns the tangent of x (x in radians)"
+        "documentation": "Returns the tangent of n (n is in radians)."
     },
     "@sl-slua/global/math.tanh": {
-        "documentation": "Returns the hyperbolic tangent of x"
+        "documentation": "Returns the hyperbolic tangent of n."
     },
     "@sl-slua/global/math.isnan": {
-        "documentation": "Returns true if x is NaN"
+        "documentation": "Returns true if n is NaN."
     },
     "@sl-slua/global/math.isinf": {
-        "documentation": "Returns true if x is infinite"
+        "documentation": "Returns true if n is infinite."
     },
     "@sl-slua/global/math.isfinite": {
-        "documentation": "Returns true if x is finite"
+        "documentation": "Returns true if n is finite."
     },
     "@sl-slua/global/os": {
-        "documentation": "Operating system facilities library",
-        "summary": "Operating system facilities library"
+        "documentation": "Operating system facilities library."
     },
     "@sl-slua/global/os.clock": {
-        "documentation": "Returns CPU time used by the program in seconds"
+        "documentation": "Returns a high-precision timestamp in seconds for measuring durations."
     },
     "@sl-slua/global/os.date": {
-        "documentation": "Returns a string or table containing date and time"
+        "documentation": "Returns a table or string representation of the time based on the provided format."
     },
     "@sl-slua/global/os.difftime": {
-        "documentation": "Returns the difference in seconds between two times"
+        "documentation": "Returns the difference in seconds between two timestamps. Same as a - b."
     },
     "@sl-slua/global/os.time": {
-        "documentation": "Returns the current time or converts a table to time"
+        "documentation": "Returns the current Unix timestamp or the timestamp of the given date."
     },
     "@sl-slua/global/string": {
-        "documentation": "String manipulation library",
-        "summary": "String manipulation library"
+        "documentation": "String manipulation library."
     },
     "@sl-slua/global/string.byte": {
-        "documentation": "Returns the internal numeric codes of the characters"
+        "documentation": "Returns the numeric code of every byte in the input string within the given range."
     },
     "@sl-slua/global/string.char": {
-        "documentation": "Returns a string from character codes"
+        "documentation": "Returns a string containing characters for the given byte values."
     },
     "@sl-slua/global/string.find": {
-        "documentation": "Finds first match of pattern in string"
+        "documentation": "Finds the first instance of the pattern in the string."
     },
     "@sl-slua/global/string.format": {
-        "documentation": "Returns a formatted string"
+        "documentation": "Formats input values into a string using printf-style format specifiers."
     },
     "@sl-slua/global/string.gmatch": {
         "documentation": "Returns an iterator function for pattern matches"
     },
     "@sl-slua/global/string.gsub": {
-        "documentation": "Global substitution of pattern matches"
+        "documentation": "Performs pattern-based substitution in a string."
     },
     "@sl-slua/global/string.len": {
-        "documentation": "Returns the length of the string"
+        "documentation": "Returns the number of bytes in the string. Identical to #s"
     },
     "@sl-slua/global/string.lower": {
-        "documentation": "Converts string to lowercase"
+        "documentation": "Returns a lowercase version of the input string."
     },
     "@sl-slua/global/string.match": {
-        "documentation": "Returns captures from pattern match"
+        "documentation": "Finds and returns matches for a pattern in the input string."
     },
     "@sl-slua/global/string.pack": {
-        "documentation": "Packs values into a binary string"
+        "documentation": "Packs values into a binary string."
     },
     "@sl-slua/global/string.packsize": {
-        "documentation": "Returns the size of a packed string for the given format"
+        "documentation": "Returns the size of a packed string for the given format."
     },
     "@sl-slua/global/string.rep": {
-        "documentation": "Returns a string repeated n times"
+        "documentation": "Returns the input string repeated a given number of times."
     },
     "@sl-slua/global/string.reverse": {
-        "documentation": "Reverses a string"
+        "documentation": "Returns the input string with bytes in reverse order."
     },
     "@sl-slua/global/string.split": {
-        "documentation": "Splits a string by separator"
+        "documentation": "Splits a string by separator. Returns a list of substrings."
     },
     "@sl-slua/global/string.sub": {
-        "documentation": "Returns a substring"
+        "documentation": "Returns a substring from the given range."
     },
     "@sl-slua/global/string.unpack": {
-        "documentation": "Unpacks values from a binary string"
+        "documentation": "Decodes a binary string using a pack format."
     },
     "@sl-slua/global/string.upper": {
-        "documentation": "Converts string to uppercase"
+        "documentation": "Returns an uppercase version of the input string."
     },
     "@sl-slua/global/table": {
-        "documentation": "Table manipulation library",
-        "summary": "Table manipulation library"
+        "documentation": "Table manipulation library. Tables are collections of key-value pairs."
     },
     "@sl-slua/global/table.concat": {
-        "documentation": "Concatenates table elements into a string"
+        "documentation": "Joins an array of strings into one string, with an optional separator."
     },
     "@sl-slua/global/table.foreach": {
-        "documentation": "Iterates over table key-value pairs (deprecated)"
+        "documentation": "Iterates over all key-value pairs in the table (deprecated)."
     },
     "@sl-slua/global/table.foreachi": {
-        "documentation": "Iterates over array indices (deprecated)"
+        "documentation": "Iterates over all index-value pairs in the array (deprecated)."
     },
     "@sl-slua/global/table.getn": {
-        "documentation": "Returns the length of a table (deprecated, use # operator)"
+        "documentation": "Returns the length of an array (deprecated; use # instead)."
     },
     "@sl-slua/global/table.maxn": {
-        "documentation": "Returns the largest positive numeric index"
+        "documentation": "Returns the highest numeric key in the table."
     },
     "@sl-slua/global/table.insert": {
-        "documentation": "Inserts an element at the end of a list"
+        "documentation": "Inserts an element at the specified index, or at the end of the array."
     },
     "@sl-slua/global/table.remove": {
-        "documentation": "Removes and returns an element from a list"
+        "documentation": "Removes and returns the element at the specified index from the array, or from the end of the array."
     },
     "@sl-slua/global/table.sort": {
-        "documentation": "Sorts list elements in place"
+        "documentation": "Sorts an array in place."
     },
     "@sl-slua/global/table.pack": {
-        "documentation": "Packs arguments into a table with length field n"
+        "documentation": "Packs multiple arguments into a new array with length field n."
     },
     "@sl-slua/global/table.unpack": {
-        "documentation": "Unpacks table elements as multiple return values"
+        "documentation": "Unpacks array elements into multiple return values."
     },
     "@sl-slua/global/table.move": {
-        "documentation": "Moves elements from one table to another"
+        "documentation": "Inserts elements [i..j] from src array into dest array at [d]."
     },
     "@sl-slua/global/table.create": {
-        "documentation": "Creates a new table with pre-allocated array slots"
+        "documentation": "Creates a new table with pre-allocated array capacity, optionally filled."
     },
     "@sl-slua/global/table.find": {
-        "documentation": "Finds the index of a value in an array"
+        "documentation": "Finds the first occurrence of a value in the array and returns its index."
     },
     "@sl-slua/global/table.clear": {
-        "documentation": "Removes all elements from a table"
+        "documentation": "Clears all elements from a table while keeping its capacity."
     },
     "@sl-slua/global/table.freeze": {
-        "documentation": "Makes a table read-only"
+        "documentation": "Freezes a table, making it read-only."
     },
     "@sl-slua/global/table.isfrozen": {
-        "documentation": "Returns true if a table is frozen"
+        "documentation": "Returns true if a table is frozen."
     },
     "@sl-slua/global/table.clone": {
-        "documentation": "Creates a shallow copy of a table"
+        "documentation": "Creates a shallow copy of the table."
     },
     "@sl-slua/global/utf8": {
-        "documentation": "UTF-8 support library",
-        "summary": "UTF-8 support library"
+        "documentation": "UTF-8 support library."
     },
     "@sl-slua/global/utf8.charpattern": {
         "documentation": "Pattern that matches exactly one UTF-8 byte sequence"
     },
     "@sl-slua/global/utf8.char": {
-        "documentation": "Returns a string from UTF-8 codepoints"
+        "documentation": "Creates a string from Unicode codepoints."
     },
     "@sl-slua/global/utf8.codes": {
-        "documentation": "Returns an iterator for UTF-8 codepoints in a string"
+        "documentation": "Returns an iterator that produces the byte offset and Unicode codepoint for each character in the string."
     },
     "@sl-slua/global/utf8.codepoint": {
-        "documentation": "Returns the codepoints of characters in a string"
+        "documentation": "Returns the Unicode codepoints in the specified range of the string."
     },
     "@sl-slua/global/utf8.len": {
-        "documentation": "Returns the number of UTF-8 characters in a string, or nil and error position"
+        "documentation": "Returns the number of Unicode codepoints in the specified range of the string, or nil and error index."
     },
     "@sl-slua/global/utf8.offset": {
-        "documentation": "Returns the byte position of the n-th character"
+        "documentation": "Returns the byte offset of the nth Unicode codepoint in the string."
     },
     "@sl-slua/global/ll": {
         "documentation": "LSL built-in functions",
