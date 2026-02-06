@@ -6,15 +6,15 @@
         "documentation": "Converts a string, buffer, or uuid to a uuid, returns nil if invalid"
     },
     "@sl-slua/global/tovector": {
-        "documentation": "Converts a value to a vector, returns nil if invalid",
+        "documentation": "Converts a string to a vector, returns nil if invalid",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/tovector/"
     },
     "@sl-slua/global/toquaternion": {
-        "documentation": "Converts a value to a quaternion, returns nil if invalid",
+        "documentation": "Converts a string to a quaternion, returns nil if invalid",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/toquaternion/"
     },
     "@sl-slua/global/torotation": {
-        "documentation": "Converts a value to a rotation (quaternion), returns nil if invalid"
+        "documentation": "Converts a string to a rotation (quaternion), returns nil if invalid"
     },
     "@sl-slua/global/bit32": {
         "documentation": "Bitwise operations library",
