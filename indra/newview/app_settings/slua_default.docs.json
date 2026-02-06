@@ -950,7 +950,7 @@
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llgetlinkkey/"
     },
     "@sl-slua/global/ll.GetLinkMedia": {
-        "documentation": "Get the media parameters for a particular face on linked prim, given the desired list of parameter names. Returns a list of values in the order requested.\tReturns an empty list if no media exists on the face.",
+        "documentation": "Get the media parameters for a particular face on linked prim, given the desired list of parameter names. Returns a list of values in the order requested.&nbsp;Returns an empty list if no media exists on the face.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llgetlinkmedia/"
     },
     "@sl-slua/global/ll.GetLinkName": {
@@ -1590,7 +1590,7 @@
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lllistenremove/"
     },
     "@sl-slua/global/ll.LoadURL": {
-        "documentation": "Shows dialog to avatar AvatarID offering to load web page at URL.\tIf user clicks yes, launches their web browser.<br>llLoadURL displays a dialogue box to the user, offering to load the specified web page using the default web browser.",
+        "documentation": "Shows dialog to avatar AvatarID offering to load web page at URL.&nbsp;If user clicks yes, launches their web browser.<br>llLoadURL displays a dialogue box to the user, offering to load the specified web page using the default web browser.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llloadurl/"
     },
     "@sl-slua/global/ll.Log": {
@@ -2054,7 +2054,7 @@
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsetcontenttype/"
     },
     "@sl-slua/global/ll.SetDamage": {
-        "documentation": "Sets the amount of damage that will be done to an avatar that this task hits.\tTask will be killed.<br>Sets the amount of damage that will be done to an avatar that this object hits. This object will be destroyed on damaging an avatar, and no collision event is triggered.",
+        "documentation": "Sets the amount of damage that will be done to an avatar that this task hits.&nbsp;Task will be killed.<br>Sets the amount of damage that will be done to an avatar that this object hits. This object will be destroyed on damaging an avatar, and no collision event is triggered.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsetdamage/"
     },
     "@sl-slua/global/ll.SetEnvironment": {
@@ -2939,7 +2939,7 @@
         "documentation": "Set collision capsule radius."
     },
     "@sl-slua/global/CHARACTER_STAY_WITHIN_PARCEL": {
-        "documentation": "Determines whether a character can leave its starting parcel.\\nTakes a boolean parameter. If TRUE, the character cannot voluntarilly leave the parcel, but can return to it."
+        "documentation": "Determines whether a character can leave its starting parcel.<br>Takes a boolean parameter. If TRUE, the character cannot voluntarilly leave the parcel, but can return to it."
     },
     "@sl-slua/global/CHARACTER_TYPE": {
         "documentation": "Specifies which walk-ability coefficient will be used by this character."
@@ -2996,7 +2996,7 @@
         "documentation": "COMBAT_CHANNEL is an integer constant that, when passed to llRegionSay will add the message to the combat log. A script with a chat listen active on COMBAT_CHANNEL may also monitor the combat log."
     },
     "@sl-slua/global/COMBAT_LOG_ID": {
-        "documentation": "Messages from the region to the COMBAT_CHANNEL will all be from this ID.\\n Scripts may filter llListen calls on this ID to receive only system generated combat log messages."
+        "documentation": "Messages from the region to the COMBAT_CHANNEL will all be from this ID.<br> Scripts may filter llListen calls on this ID to receive only system generated combat log messages."
     },
     "@sl-slua/global/CONTENT_TYPE_ATOM": {
         "documentation": "\"application/atom+xml\""
@@ -3119,7 +3119,7 @@
         "documentation": "DATA_PAYINFO constant"
     },
     "@sl-slua/global/DATA_RATING": {
-        "documentation": "Returns the agent ratings as a comma separated string of six integers. They are:\\n\t\t\t1) Positive rated behaviour\\n\t\t\t2) Negative rated behaviour\\n\t\t\t3) Positive rated appearance\\n\t\t\t4) Negative rated appearance\\n\t\t\t5) Positive rated building\\n\t\t\t6) Negative rated building"
+        "documentation": "Returns the agent ratings as a comma separated string of six integers. They are:<br>&nbsp;&nbsp;&nbsp;1) Positive rated behaviour<br>&nbsp;&nbsp;&nbsp;2) Negative rated behaviour<br>&nbsp;&nbsp;&nbsp;3) Positive rated appearance<br>&nbsp;&nbsp;&nbsp;4) Negative rated appearance<br>&nbsp;&nbsp;&nbsp;5) Positive rated building<br>&nbsp;&nbsp;&nbsp;6) Negative rated building"
     },
     "@sl-slua/global/DATA_SIM_POS": {
         "documentation": "DATA_SIM_POS constant"
@@ -3134,7 +3134,7 @@
         "documentation": "DEBUG_CHANNEL is an integer constant that, when passed to llSay, llWhisper, or llShout as a channel parameter, will print text to the Script Warning/Error Window."
     },
     "@sl-slua/global/DEG_TO_RAD": {
-        "documentation": "0.017453293 - Number of radians per degree.\\n\t\t\tYou can use this to convert degrees to radians by multiplying the degrees by this number."
+        "documentation": "0.017453293 - Number of radians per degree.<br>&nbsp;&nbsp;&nbsp;You can use this to convert degrees to radians by multiplying the degrees by this number."
     },
     "@sl-slua/global/DENSITY": {
         "documentation": "Used with llSetPhysicsMaterial to enable the density value. Must be between 1.0 and 22587.0 (in Kg/m^3 -- see if you can figure out what 22587 represents)"
@@ -3323,7 +3323,7 @@
         "documentation": "HORIZONTAL constant"
     },
     "@sl-slua/global/HTTP_ACCEPT": {
-        "documentation": "Provide a string value to be included in the HTTP\\n            accepts header value. This replaces the default Second Life HTTP accepts header."
+        "documentation": "Provide a string value to be included in the HTTP<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accepts header value. This replaces the default Second Life HTTP accepts header."
     },
     "@sl-slua/global/HTTP_BODY_MAXLENGTH": {
         "documentation": "HTTP_BODY_MAXLENGTH constant"
@@ -3344,10 +3344,10 @@
         "documentation": "HTTP_MIMETYPE constant"
     },
     "@sl-slua/global/HTTP_PRAGMA_NO_CACHE": {
-        "documentation": "Allows enabling/disabling of the \"Pragma: no-cache\" header.\\nUsage: [HTTP_PRAGMA_NO_CACHE, integer SendHeader]. When SendHeader is TRUE, the \"Pragma: no-cache\" header is sent by the script. This matches the default behavior. When SendHeader is FALSE, no \"Pragma\" header is sent by the script."
+        "documentation": "Allows enabling/disabling of the \"Pragma: no-cache\" header.<br>Usage: [HTTP_PRAGMA_NO_CACHE, integer SendHeader]. When SendHeader is TRUE, the \"Pragma: no-cache\" header is sent by the script. This matches the default behavior. When SendHeader is FALSE, no \"Pragma\" header is sent by the script."
     },
     "@sl-slua/global/HTTP_USER_AGENT": {
-        "documentation": "Provide a string value to be included in the HTTP\\n            User-Agent header value. This is appended to the default value."
+        "documentation": "Provide a string value to be included in the HTTP<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User-Agent header value. This is appended to the default value."
     },
     "@sl-slua/global/HTTP_VERBOSE_THROTTLE": {
         "documentation": "HTTP_VERBOSE_THROTTLE constant"
@@ -3497,7 +3497,7 @@
         "documentation": "For use with KFM_DATA."
     },
     "@sl-slua/global/LAND_LARGE_BRUSH": {
-        "documentation": "Use a large brush size.\\nNOTE: This value is incorrect, a large brush should be 2."
+        "documentation": "Use a large brush size.<br>NOTE: This value is incorrect, a large brush should be 2."
     },
     "@sl-slua/global/LAND_LEVEL": {
         "documentation": "Action to level the land."
@@ -3506,7 +3506,7 @@
         "documentation": "Action to lower the land."
     },
     "@sl-slua/global/LAND_MEDIUM_BRUSH": {
-        "documentation": "Use a medium brush size.\\nNOTE: This value is incorrect, a medium brush should be 1."
+        "documentation": "Use a medium brush size.<br>NOTE: This value is incorrect, a medium brush should be 1."
     },
     "@sl-slua/global/LAND_NOISE": {
         "documentation": "LAND_NOISE constant"
@@ -3518,7 +3518,7 @@
         "documentation": "LAND_REVERT constant"
     },
     "@sl-slua/global/LAND_SMALL_BRUSH": {
-        "documentation": "Use a small brush size.\\nNOTE: This value is incorrect, a small brush should be 0."
+        "documentation": "Use a small brush size.<br>NOTE: This value is incorrect, a small brush should be 0."
     },
     "@sl-slua/global/LAND_SMOOTH": {
         "documentation": "LAND_SMOOTH constant"
@@ -3626,7 +3626,7 @@
         "documentation": "NULL_KEY constant"
     },
     "@sl-slua/global/OBJECT_ACCOUNT_LEVEL": {
-        "documentation": "Retrieves the account level of an avatar.\\nReturns 0 when the avatar has a basic account,\\n 1 when the avatar has a premium account,\\n 10 when the avatar has a premium plus account,\\n or -1 if the object is not an avatar."
+        "documentation": "Retrieves the account level of an avatar.<br>Returns 0 when the avatar has a basic account,<br> 1 when the avatar has a premium account,<br> 10 when the avatar has a premium plus account,<br> or -1 if the object is not an avatar."
     },
     "@sl-slua/global/OBJECT_ANIMATED_COUNT": {
         "documentation": "This is a flag used with llGetObjectDetails to get the number of associated animated objects"
@@ -3635,19 +3635,19 @@
         "documentation": "This is a flag used with llGetObjectDetails to get the number of additional animated object attachments allowed."
     },
     "@sl-slua/global/OBJECT_ATTACHED_POINT": {
-        "documentation": "Gets the attachment point to which the object is attached.\\nReturns 0 if the object is not an attachment (or is an avatar, etc)."
+        "documentation": "Gets the attachment point to which the object is attached.<br>Returns 0 if the object is not an attachment (or is an avatar, etc)."
     },
     "@sl-slua/global/OBJECT_ATTACHED_SLOTS_AVAILABLE": {
-        "documentation": "Returns the number of attachment slots available.\\nReturns 0 if the object is not an avatar or none are available."
+        "documentation": "Returns the number of attachment slots available.<br>Returns 0 if the object is not an avatar or none are available."
     },
     "@sl-slua/global/OBJECT_BODY_SHAPE_TYPE": {
-        "documentation": "This is a flag used with llGetObjectDetails to get the body type of the avatar, based on shape data.\\nIf no data is available, -1.0 is returned.\\nThis is normally between 0 and 1.0, with 0.5 and larger considered 'male'"
+        "documentation": "This is a flag used with llGetObjectDetails to get the body type of the avatar, based on shape data.<br>If no data is available, -1.0 is returned.<br>This is normally between 0 and 1.0, with 0.5 and larger considered 'male'"
     },
     "@sl-slua/global/OBJECT_CHARACTER_TIME": {
         "documentation": "Units in seconds"
     },
     "@sl-slua/global/OBJECT_CLICK_ACTION": {
-        "documentation": "This is a flag used with llGetObjectDetails to get the click action.\\nThe default is 0"
+        "documentation": "This is a flag used with llGetObjectDetails to get the click action.<br>The default is 0"
     },
     "@sl-slua/global/OBJECT_CREATION_TIME": {
         "documentation": "This is a flag used with llGetObjectDetails to get the time this object was created"
@@ -3674,7 +3674,7 @@
         "documentation": "Gets current health value for the object."
     },
     "@sl-slua/global/OBJECT_HOVER_HEIGHT": {
-        "documentation": "This is a flag used with llGetObjectDetails to get hover height of the avatar\\nIf no data is available, 0.0 is returned."
+        "documentation": "This is a flag used with llGetObjectDetails to get hover height of the avatar<br>If no data is available, 0.0 is returned."
     },
     "@sl-slua/global/OBJECT_LAST_OWNER_ID": {
         "documentation": "Gets the object's last owner ID."
@@ -3707,10 +3707,10 @@
         "documentation": "Gets the object's permissions including any inventory."
     },
     "@sl-slua/global/OBJECT_PHANTOM": {
-        "documentation": "Returns boolean, detailing if phantom is enabled or disabled on the object.\\nIf id is an avatar or attachment, 0 is returned."
+        "documentation": "Returns boolean, detailing if phantom is enabled or disabled on the object.<br>If id is an avatar or attachment, 0 is returned."
     },
     "@sl-slua/global/OBJECT_PHYSICS": {
-        "documentation": "Returns boolean, detailing if physics is enabled or disabled on the object.\\nIf id is an avatar or attachment, 0 is returned."
+        "documentation": "Returns boolean, detailing if physics is enabled or disabled on the object.<br>If id is an avatar or attachment, 0 is returned."
     },
     "@sl-slua/global/OBJECT_PHYSICS_COST": {
         "documentation": "OBJECT_PHYSICS_COST constant"
@@ -3725,7 +3725,7 @@
         "documentation": "OBJECT_PRIM_EQUIVALENCE constant"
     },
     "@sl-slua/global/OBJECT_RENDER_WEIGHT": {
-        "documentation": "This is a flag used with llGetObjectDetails to get the Avatar_Rendering_Cost of an avatar, based on values reported by nearby viewers.\\nIf no data is available, -1 is returned.\\nThe maximum render weight stored by the simulator is 500000. When called against an object, 0 is returned."
+        "documentation": "This is a flag used with llGetObjectDetails to get the Avatar_Rendering_Cost of an avatar, based on values reported by nearby viewers.<br>If no data is available, -1 is returned.<br>The maximum render weight stored by the simulator is 500000. When called against an object, 0 is returned."
     },
     "@sl-slua/global/OBJECT_RETURN_PARCEL": {
         "documentation": "OBJECT_RETURN_PARCEL constant"
@@ -3743,7 +3743,7 @@
         "documentation": "Get the time when an object was rezzed."
     },
     "@sl-slua/global/OBJECT_ROOT": {
-        "documentation": "Gets the id of the root prim of the object requested.\\nIf id is an avatar, return the id of the root prim of the linkset the avatar is sitting on (or the avatar's own id if the avatar is not sitting on an object within the region)."
+        "documentation": "Gets the id of the root prim of the object requested.<br>If id is an avatar, return the id of the root prim of the linkset the avatar is sitting on (or the avatar's own id if the avatar is not sitting on an object within the region)."
     },
     "@sl-slua/global/OBJECT_ROT": {
         "documentation": "Gets the object's rotation."
@@ -4085,7 +4085,7 @@
         "documentation": "A script with this permission does not notify the object owner when it modifies estate access rules via llManageEstateAccess."
     },
     "@sl-slua/global/PERMISSION_TAKE_CONTROLS": {
-        "documentation": "If this permission enabled, the object can successfully call the llTakeControls libray call."
+        "documentation": "If this permission enabled, the object can successfully call the llTakeControls library call."
     },
     "@sl-slua/global/PERMISSION_TELEPORT": {
         "documentation": "PERMISSION_TELEPORT constant"
@@ -4121,22 +4121,22 @@
         "documentation": "1.57079633 - The number of radians in a quarter circle."
     },
     "@sl-slua/global/PRIM_ALLOW_UNSIT": {
-        "documentation": "Prim parameter for restricting manual standing for seated avatars in an experience.\\nIgnored if the avatar was not seated via a call to llSitOnLink."
+        "documentation": "Prim parameter for restricting manual standing for seated avatars in an experience.<br>Ignored if the avatar was not seated via a call to llSitOnLink."
     },
     "@sl-slua/global/PRIM_ALPHA_MODE": {
-        "documentation": "Prim parameter for materials using integer face, integer alpha_mode, integer alpha_cutoff.\\nDefines how the alpha channel of the diffuse texture should be rendered.\\nValid options for alpha_mode are PRIM_ALPHA_MODE_BLEND, _NONE, _MASK, and _EMISSIVE.\\nalpha_cutoff is used only for PRIM_ALPHA_MODE_MASK."
+        "documentation": "Prim parameter for materials using integer face, integer alpha_mode, integer alpha_cutoff.<br>Defines how the alpha channel of the diffuse texture should be rendered.<br>Valid options for alpha_mode are PRIM_ALPHA_MODE_BLEND, _NONE, _MASK, and _EMISSIVE.<br>alpha_cutoff is used only for PRIM_ALPHA_MODE_MASK."
     },
     "@sl-slua/global/PRIM_ALPHA_MODE_BLEND": {
-        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.\\nIndicates that the diffuse texture's alpha channel should be rendered as alpha-blended."
+        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.<br>Indicates that the diffuse texture's alpha channel should be rendered as alpha-blended."
     },
     "@sl-slua/global/PRIM_ALPHA_MODE_EMISSIVE": {
-        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.\\nIndicates that the diffuse texture's alpha channel should be rendered as an emissivity mask."
+        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.<br>Indicates that the diffuse texture's alpha channel should be rendered as an emissivity mask."
     },
     "@sl-slua/global/PRIM_ALPHA_MODE_MASK": {
-        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.\\nIndicates that the diffuse texture's alpha channel should be rendered as fully opaque for alpha values above alpha_cutoff and fully transparent otherwise."
+        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.<br>Indicates that the diffuse texture's alpha channel should be rendered as fully opaque for alpha values above alpha_cutoff and fully transparent otherwise."
     },
     "@sl-slua/global/PRIM_ALPHA_MODE_NONE": {
-        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.\\nIndicates that the diffuse texture's alpha channel should be ignored."
+        "documentation": "Prim parameter setting for PRIM_ALPHA_MODE.<br>Indicates that the diffuse texture's alpha channel should be ignored."
     },
     "@sl-slua/global/PRIM_BUMP_BARK": {
         "documentation": "PRIM_BUMP_BARK constant"
@@ -4205,7 +4205,7 @@
         "documentation": "Collision sound uuid and volume for this prim"
     },
     "@sl-slua/global/PRIM_COLOR": {
-        "documentation": "[PRIM_COLOR, integer face, vector color, float alpha]\\ninteger face – face number or ALL_SIDES vector color – color in RGB <R, G, B> (<0.0, 0.0, 0.0> = black, <1.0, 1.0, 1.0> = white) float alpha – from 0.0 (clear) to 1.0 (solid) (0.0 <= alpha <= 1.0)"
+        "documentation": "[PRIM_COLOR, integer face, vector color, float alpha]<br><br>integer face \u2013 face number or ALL_SIDES<br>vector color \u2013 color in RGB <R, G, B> (<0.0, 0.0, 0.0> = black, <1.0, 1.0, 1.0> = white)<br>float alpha \u2013 from 0.0 (clear) to 1.0 (solid) (0.0 <= alpha <= 1.0)"
     },
     "@sl-slua/global/PRIM_DAMAGE": {
         "documentation": "Damage and damage type assigned to this prim."
@@ -4214,13 +4214,13 @@
         "documentation": "[PRIM_DESC, string description]"
     },
     "@sl-slua/global/PRIM_FLEXIBLE": {
-        "documentation": "[ PRIM_FLEXIBLE, integer boolean, integer softness, float gravity, float friction, float wind, float tension, vector force ] + +integer boolean – TRUE enables, FALSE disables +integer softness – ranges from 0 to 3 +float gravity – ranges from -10.0 to 10.0 +float friction – ranges from 0.0 to 10.0 +float wind – ranges from 0.0 to 10.0 +float tension – ranges from 0.0 to 10.0 +vector force"
+        "documentation": "[ PRIM_FLEXIBLE, integer boolean, integer softness, float gravity, float friction, float wind, float tension, vector force ]<br><br>integer boolean \u2013 TRUE enables, FALSE disables<br>integer softness \u2013 ranges from 0 to 3<br>float gravity \u2013 ranges from -10.0 to 10.0<br>float friction \u2013 ranges from 0.0 to 10.0<br>float wind \u2013 ranges from 0.0 to 10.0<br>float tension \u2013 ranges from 0.0 to 10.0<br>vector force"
     },
     "@sl-slua/global/PRIM_FULLBRIGHT": {
         "documentation": "[ PRIM_FULLBRIGHT, integer face, integer boolean ]"
     },
     "@sl-slua/global/PRIM_GLOW": {
-        "documentation": "PRIM_GLOW is used to get or set the glow status of the face.\\n[ PRIM_GLOW, integer face, float intensity ]"
+        "documentation": "PRIM_GLOW is used to get or set the glow status of the face.<br>[ PRIM_GLOW, integer face, float intensity ]"
     },
     "@sl-slua/global/PRIM_GLTF_ALPHA_MODE_BLEND": {
         "documentation": "Prim parameter setting for PRIM_GLTF_BASE_COLOR alpha mode \"BLEND\"."
@@ -4232,7 +4232,7 @@
         "documentation": "Prim parameter setting for PRIM_GLTF_BASE_COLOR alpha mode \"OPAQUE\"."
     },
     "@sl-slua/global/PRIM_GLTF_BASE_COLOR": {
-        "documentation": "Prim parameter for materials using integer face, string texture, vector repeats, vector offsets, float rotation_in_radians, vector color, integer alpha_mode, float alpha_cutoff, boolean double_sided.\\nValid options for alpha_mode are PRIM_ALPHA_MODE_BLEND, _NONE, and _MASK.\\nalpha_cutoff is used only for PRIM_ALPHA_MODE_MASK."
+        "documentation": "Prim parameter for materials using integer face, string texture, vector repeats, vector offsets, float rotation_in_radians, vector color, integer alpha_mode, float alpha_cutoff, boolean double_sided.<br>Valid options for alpha_mode are PRIM_ALPHA_MODE_BLEND, _NONE, and _MASK.<br>alpha_cutoff is used only for PRIM_ALPHA_MODE_MASK."
     },
     "@sl-slua/global/PRIM_GLTF_EMISSIVE": {
         "documentation": "Prim parameter for GLTF materials using integer face, string texture, vector repeats, vector offsets, float rotation_in_radians, vector color"
@@ -4259,7 +4259,7 @@
         "documentation": "PRIM_HOLE_TRIANGLE constant"
     },
     "@sl-slua/global/PRIM_LINK_TARGET": {
-        "documentation": "[ PRIM_LINK_TARGET, integer link_target ]\\nUsed to get or set multiple links with a single PrimParameters call."
+        "documentation": "[ PRIM_LINK_TARGET, integer link_target ]<br><br>Used to get or set multiple links with a single PrimParameters call."
     },
     "@sl-slua/global/PRIM_MATERIAL": {
         "documentation": "[ PRIM_MATERIAL, integer PRIM_MATERIAL_* ]"
@@ -4376,7 +4376,7 @@
         "documentation": "Prim parameter for materials using integer face, string texture, vector repeats, vector offsets, float rotation_in_radians"
     },
     "@sl-slua/global/PRIM_OMEGA": {
-        "documentation": "[ PRIM_OMEGA, vector axis, float spinrate, float gain ]\\nvector axis – arbitrary axis to rotate the object around float spinrate – rate of rotation in radians per second float gain – also modulates the final spinrate and disables the rotation behavior if zero"
+        "documentation": "[ PRIM_OMEGA, vector axis, float spinrate, float gain ]<br><br>vector axis \u2013 arbitrary axis to rotate the object around<br>float spinrate \u2013 rate of rotation in radians per second<br>float gain \u2013 also modulates the final spinrate and disables the rotation behavior if zero"
     },
     "@sl-slua/global/PRIM_PHANTOM": {
         "documentation": "[ PRIM_PHANTOM, integer boolean ]"
@@ -4394,16 +4394,16 @@
         "documentation": "Use the normal prim shape for physics (this is the default for all non-mesh objects)."
     },
     "@sl-slua/global/PRIM_PHYSICS_SHAPE_TYPE": {
-        "documentation": "Allows you to set the physics shape type of a prim via lsl. Permitted values are:\\n\t\t\tPRIM_PHYSICS_SHAPE_NONE, PRIM_PHYSICS_SHAPE_PRIM, PRIM_PHYSICS_SHAPE_CONVEX"
+        "documentation": "Allows you to set the physics shape type of a prim via lsl. Permitted values are:<br>&nbsp;&nbsp;&nbsp;PRIM_PHYSICS_SHAPE_NONE, PRIM_PHYSICS_SHAPE_PRIM, PRIM_PHYSICS_SHAPE_CONVEX"
     },
     "@sl-slua/global/PRIM_POINT_LIGHT": {
-        "documentation": "[ PRIM_POINT_LIGHT, integer boolean, vector linear_color, float intensity, float radius, float falloff ]\\ninteger boolean – TRUE enables, FALSE disables vector linear_color – linear color in RGB <R, G, B&> (<0.0, 0.0, 0.0> = black, <1.0, 1.0, 1.0> = white) float intensity – ranges from 0.0 to 1.0 float radius – ranges from 0.1 to 20.0 float falloff – ranges from 0.01 to 2.0"
+        "documentation": "[ PRIM_POINT_LIGHT, integer boolean, vector linear_color, float intensity, float radius, float falloff ]<br><br>integer boolean \u2013 TRUE enables, FALSE disables<br>vector linear_color \u2013 linear color in RGB <R, G, B&> (<0.0, 0.0, 0.0> = black, <1.0, 1.0, 1.0> = white)<br>float intensity \u2013 ranges from 0.0 to 1.0<br>float radius \u2013 ranges from 0.1 to 20.0<br>float falloff \u2013 ranges from 0.01 to 2.0"
     },
     "@sl-slua/global/PRIM_POSITION": {
-        "documentation": "[ PRIM_POSITION, vector position ]\\nvector position – position in region or local coordinates depending upon the situation"
+        "documentation": "[ PRIM_POSITION, vector position ]<br><br>vector position \u2013 position in region or local coordinates depending upon the situation"
     },
     "@sl-slua/global/PRIM_POS_LOCAL": {
-        "documentation": "PRIM_POS_LOCAL, vector position ]\\nvector position - position in local coordinates"
+        "documentation": "[ PRIM_POS_LOCAL, vector position ]<br><br>vector position - position in local coordinates"
     },
     "@sl-slua/global/PRIM_PROJECTOR": {
         "documentation": "[ PRIM_PROJECTOR, string texture, float fov, float focus, float ambiance ]"
@@ -4430,7 +4430,7 @@
         "documentation": "[ PRIM_ROT_LOCAL, rotation local_rot ]"
     },
     "@sl-slua/global/PRIM_SCRIPTED_SIT_ONLY": {
-        "documentation": "Prim parameter for restricting manual sitting on this prim.\\nSitting must be initiated via call to llSitOnLink."
+        "documentation": "Prim parameter for restricting manual sitting on this prim.<br>Sitting must be initiated via call to llSitOnLink."
     },
     "@sl-slua/global/PRIM_SCULPT_FLAG_ANIMESH": {
         "documentation": "Mesh is animated."
@@ -4652,7 +4652,7 @@
         "documentation": "Minimum speed that a particle should be moving."
     },
     "@sl-slua/global/PSYS_SRC_INNERANGLE": {
-        "documentation": "Specifies the inner angle of the arc created by the PSYS_SRC_PATTERN_ANGLE or PSYS_SRC_PATTERN_ANGLE_CONE source pattern.\\n\t\t\tThe area specified will NOT have particles in it."
+        "documentation": "Specifies the inner angle of the arc created by the PSYS_SRC_PATTERN_ANGLE or PSYS_SRC_PATTERN_ANGLE_CONE source pattern.<br>&nbsp;&nbsp;&nbsp;The area specified will NOT have particles in it."
     },
     "@sl-slua/global/PSYS_SRC_MAX_AGE": {
         "documentation": "How long this particle system should last, 0.0 means forever."
@@ -4661,10 +4661,10 @@
         "documentation": "Sets the angular velocity to rotate the axis that SRC_PATTERN_ANGLE and SRC_PATTERN_ANGLE_CONE use."
     },
     "@sl-slua/global/PSYS_SRC_OUTERANGLE": {
-        "documentation": "Specifies the outer angle of the arc created by the PSYS_SRC_PATTERN_ANGLE or PSYS_SRC_PATTERN_ANGLE_CONE source pattern.\\n\t\t\tThe area between the outer and inner angle will be filled with particles."
+        "documentation": "Specifies the outer angle of the arc created by the PSYS_SRC_PATTERN_ANGLE or PSYS_SRC_PATTERN_ANGLE_CONE source pattern.<br>&nbsp;&nbsp;&nbsp;The area between the outer and inner angle will be filled with particles."
     },
     "@sl-slua/global/PSYS_SRC_PATTERN": {
-        "documentation": "The pattern which is used to generate particles.\\n\t\t\tUse one of the following values: PSYS_SRC_PATTERN Values."
+        "documentation": "The pattern which is used to generate particles.<br>&nbsp;&nbsp;&nbsp;Use one of the following values: PSYS_SRC_PATTERN Values."
     },
     "@sl-slua/global/PSYS_SRC_PATTERN_ANGLE": {
         "documentation": "Shoot particles across a 2 dimensional area defined by the arc created from PSYS_SRC_OUTERANGLE. There will be an open area defined by PSYS_SRC_INNERANGLE within the larger arc."
@@ -4952,7 +4952,7 @@
         "documentation": "Packets out per second."
     },
     "@sl-slua/global/SIM_STAT_PCT_CHARS_STEPPED": {
-        "documentation": "Returns the % of pathfinding characters skipped each frame, averaged over the last minute.\\nThe returned value corresponds to the \"Characters Updated\" stat in the viewer's Statistics Bar."
+        "documentation": "Returns the % of pathfinding characters skipped each frame, averaged over the last minute.<br>The returned value corresponds to the \"Characters Updated\" stat in the viewer's Statistics Bar."
     },
     "@sl-slua/global/SIM_STAT_PHYSICS_FPS": {
         "documentation": "Physics simulation FPS."
@@ -5099,7 +5099,7 @@
         "documentation": "1.41421356 - The square root of 2."
     },
     "@sl-slua/global/STATUS_BLOCK_GRAB": {
-        "documentation": "Controls whether the object can be grabbed.\\nA grab is the default action when in third person, and is available as the hand tool in build mode. This is useful for physical objects that you don't want other people to be able to trivially disturb. The default is FALSE"
+        "documentation": "Controls whether the object can be grabbed.<br>A grab is the default action when in third person, and is available as the hand tool in build mode. This is useful for physical objects that you don't want other people to be able to trivially disturb. The default is FALSE"
     },
     "@sl-slua/global/STATUS_BLOCK_GRAB_OBJECT": {
         "documentation": "Prevent click-and-drag movement on all prims in the object."
@@ -5111,10 +5111,10 @@
         "documentation": "STATUS_CAST_SHADOWS constant"
     },
     "@sl-slua/global/STATUS_DIE_AT_EDGE": {
-        "documentation": "Controls whether the object is returned to the owner's inventory if it wanders off the edge of the world.\\nIt is useful to set this status TRUE for things like bullets or rockets. The default is TRUE"
+        "documentation": "Controls whether the object is returned to the owner's inventory if it wanders off the edge of the world.<br>It is useful to set this status TRUE for things like bullets or rockets. The default is TRUE"
     },
     "@sl-slua/global/STATUS_DIE_AT_NO_ENTRY": {
-        "documentation": "Controls whether the object dies if it attempts to enter a parcel that does not allow object entry or does not have enough capacity.\\nIt is useful to set this status TRUE for things like bullets or rockets. The default is FALSE"
+        "documentation": "Controls whether the object dies if it attempts to enter a parcel that does not allow object entry or does not have enough capacity.<br>It is useful to set this status TRUE for things like bullets or rockets. The default is FALSE"
     },
     "@sl-slua/global/STATUS_INTERNAL_ERROR": {
         "documentation": "An internal error occurred."
@@ -5132,10 +5132,10 @@
         "documentation": "Result of function call was a success."
     },
     "@sl-slua/global/STATUS_PHANTOM": {
-        "documentation": "Controls/indicates whether the object collides or not.\\nSetting the value to TRUE makes the object non-colliding with all objects. It is a good idea to use this for most objects that move or rotate, but are non-physical. It is also useful for simulating volumetric lighting. The default is FALSE."
+        "documentation": "Controls/indicates whether the object collides or not.<br>Setting the value to TRUE makes the object non-colliding with all objects. It is a good idea to use this for most objects that move or rotate, but are non-physical. It is also useful for simulating volumetric lighting. The default is FALSE."
     },
     "@sl-slua/global/STATUS_PHYSICS": {
-        "documentation": "Controls/indicates whether the object moves physically.\\nThis controls the same flag that the UI check-box for Physical controls. The default is FALSE."
+        "documentation": "Controls/indicates whether the object moves physically.<br>This controls the same flag that the UI check-box for Physical controls. The default is FALSE."
     },
     "@sl-slua/global/STATUS_RETURN_AT_EDGE": {
         "documentation": "STATUS_RETURN_AT_EDGE constant"
@@ -5147,10 +5147,10 @@
         "documentation": "STATUS_ROTATE_Y constant"
     },
     "@sl-slua/global/STATUS_ROTATE_Z": {
-        "documentation": "Controls/indicates whether the object can physically rotate around\\n\t\t\tthe specific axis or not. This flag has no meaning\\n\t\t\tfor non-physical objects. Set the value to FALSE\\n\t\t\tif you want to disable rotation around that axis. The\\n\t\t\tdefault is TRUE for a physical object.\\n\t\t\tA useful example to think about when visualizing\\n\t\t\tthe effect is a sit-and-spin device. They spin around the\\n\t\t\tZ axis (up) but not around the X or Y axis."
+        "documentation": "Controls/indicates whether the object can physically rotate around<br>&nbsp;&nbsp;&nbsp;the specific axis or not. This flag has no meaning<br>&nbsp;&nbsp;&nbsp;for non-physical objects. Set the value to FALSE<br>&nbsp;&nbsp;&nbsp;if you want to disable rotation around that axis. The<br>&nbsp;&nbsp;&nbsp;default is TRUE for a physical object.<br>&nbsp;&nbsp;&nbsp;A useful example to think about when visualizing<br>&nbsp;&nbsp;&nbsp;the effect is a sit-and-spin device. They spin around the<br>&nbsp;&nbsp;&nbsp;Z axis (up) but not around the X or Y axis."
     },
     "@sl-slua/global/STATUS_SANDBOX": {
-        "documentation": "Controls/indicates whether the object can cross region boundaries\\n\t\t\tand move more than 20 meters from its creation\\n\t\t\tpoint. The default if FALSE."
+        "documentation": "Controls/indicates whether the object can cross region boundaries<br>&nbsp;&nbsp;&nbsp;and move more than 20 meters from its creation<br>&nbsp;&nbsp;&nbsp;point. The default if FALSE."
     },
     "@sl-slua/global/STATUS_TYPE_MISMATCH": {
         "documentation": "Argument(s) passed to function had a type mismatch."
@@ -5354,7 +5354,7 @@
         "documentation": "The time-scale for exponential success of linear deflection deflection. Its another way to specify the strength of the vehicles tendency to reorient itself so that its preferred axis of motion agrees with its true velocity."
     },
     "@sl-slua/global/VEHICLE_ANGULAR_FRICTION_TIMESCALE": {
-        "documentation": "A vector of timescales for exponential decay of the vehicle's angular velocity about its preferred axes of motion (at, left, up).\\n\t\t\tRange = [0.07, inf) seconds for each element of the vector."
+        "documentation": "A vector of timescales for exponential decay of the vehicle's angular velocity about its preferred axes of motion (at, left, up).<br>&nbsp;&nbsp;&nbsp;Range = [0.07, inf) seconds for each element of the vector."
     },
     "@sl-slua/global/VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE": {
         "documentation": "The timescale for exponential decay of the angular motors magnitude."
@@ -5414,7 +5414,7 @@
         "documentation": "Old, changed to VEHICLE_FLAG_NO_DEFLECTION_UP"
     },
     "@sl-slua/global/VEHICLE_HOVER_EFFICIENCY": {
-        "documentation": "A slider between minimum (0.0 = bouncy) and maximum (1.0 = fast as possible) damped motion of the hover behavior. "
+        "documentation": "A slider between minimum (0.0 = bouncy) and maximum (1.0 = fast as possible) damped motion of the hover behavior."
     },
     "@sl-slua/global/VEHICLE_HOVER_HEIGHT": {
         "documentation": "The height (above the terrain or water, or global) at which the vehicle will try to hover."
@@ -5429,13 +5429,13 @@
         "documentation": "The timescale for exponential success of linear deflection deflection. It is another way to specify how much time it takes for the vehicle's linear velocity to be redirected to its preferred axis of motion."
     },
     "@sl-slua/global/VEHICLE_LINEAR_FRICTION_TIMESCALE": {
-        "documentation": "A vector of timescales for exponential decay of the vehicle's linear velocity along its preferred axes of motion (at, left, up).\\n\t\t\tRange = [0.07, inf) seconds for each element of the vector."
+        "documentation": "A vector of timescales for exponential decay of the vehicle's linear velocity along its preferred axes of motion (at, left, up).<br>&nbsp;&nbsp;&nbsp;Range = [0.07, inf) seconds for each element of the vector."
     },
     "@sl-slua/global/VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE": {
         "documentation": "The timescale for exponential decay of the linear motors magnitude."
     },
     "@sl-slua/global/VEHICLE_LINEAR_MOTOR_DIRECTION": {
-        "documentation": "The direction and magnitude (in preferred frame) of the vehicle's linear motor. The vehicle will accelerate (or decelerate if necessary) to match its velocity to its motor.\\n\t\t\tRange of magnitude = [0, 30] meters/second."
+        "documentation": "The direction and magnitude (in preferred frame) of the vehicle's linear motor. The vehicle will accelerate (or decelerate if necessary) to match its velocity to its motor.<br>&nbsp;&nbsp;&nbsp;Range of magnitude = [0, 30] meters/second."
     },
     "@sl-slua/global/VEHICLE_LINEAR_MOTOR_OFFSET": {
         "documentation": "VEHICLE_LINEAR_MOTOR_OFFSET constant"
@@ -5447,22 +5447,22 @@
         "documentation": "A rotation of the vehicle's preferred axes of motion and orientation (at, left, up) with respect to the vehicle's local frame (x, y, z)."
     },
     "@sl-slua/global/VEHICLE_TYPE_AIRPLANE": {
-        "documentation": "Uses linear deflection for lift, no hover, and banking to turn.\\nSee http://wiki.secondlife.com/wiki/VEHICLE_TYPE_AIRPLANE"
+        "documentation": "Uses linear deflection for lift, no hover, and banking to turn.<br>See http://wiki.secondlife.com/wiki/VEHICLE_TYPE_AIRPLANE"
     },
     "@sl-slua/global/VEHICLE_TYPE_BALLOON": {
-        "documentation": "Hover, and friction, but no deflection.\\nSee http://wiki.secondlife.com/wiki/VEHICLE_TYPE_BALLOON"
+        "documentation": "Hover, and friction, but no deflection.<br>See http://wiki.secondlife.com/wiki/VEHICLE_TYPE_BALLOON"
     },
     "@sl-slua/global/VEHICLE_TYPE_BOAT": {
-        "documentation": "Hovers over water with lots of friction and some anglar deflection.\\nSee http://wiki.secondlife.com/wiki/VEHICLE_TYPE_BOAT"
+        "documentation": "Hovers over water with lots of friction and some anglar deflection.<br>See http://wiki.secondlife.com/wiki/VEHICLE_TYPE_BOAT"
     },
     "@sl-slua/global/VEHICLE_TYPE_CAR": {
-        "documentation": "Another vehicle that bounces along the ground but needs the motors to be driven from external controls or timer events.\\nSee http://wiki.secondlife.com/wiki/VEHICLE_TYPE_CAR"
+        "documentation": "Another vehicle that bounces along the ground but needs the motors to be driven from external controls or timer events.<br>See http://wiki.secondlife.com/wiki/VEHICLE_TYPE_CAR"
     },
     "@sl-slua/global/VEHICLE_TYPE_NONE": {
         "documentation": "VEHICLE_TYPE_NONE constant"
     },
     "@sl-slua/global/VEHICLE_TYPE_SLED": {
-        "documentation": "Simple vehicle that bumps along the ground, and likes to move along its local x-axis.\\nSee http://wiki.secondlife.com/wiki/VEHICLE_TYPE_SLED"
+        "documentation": "Simple vehicle that bumps along the ground, and likes to move along its local x-axis.<br>See http://wiki.secondlife.com/wiki/VEHICLE_TYPE_SLED"
     },
     "@sl-slua/global/VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY": {
         "documentation": "A slider between minimum (0.0 = wobbly) and maximum (1.0 = firm as possible) stability of the vehicle to keep itself upright."
