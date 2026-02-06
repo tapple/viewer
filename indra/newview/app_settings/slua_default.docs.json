@@ -777,10 +777,6 @@
         "documentation": "Returns the alpha value of Face.<br>Returns the 'alpha' of the given face. If face is ALL_SIDES the value returned is the mean average of all faces.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llgetalpha/"
     },
-    "@sl-slua/global/ll.GetAndResetTime": {
-        "documentation": "Returns the script time in seconds and then resets the script timer to zero.\\nGets the time in seconds since starting and resets the time to zero.",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llgetandresettime/"
-    },
     "@sl-slua/global/ll.GetAnimation": {
         "documentation": "Returns the name of the currently playing locomotion animation for the avatar id.<br>Returns the currently playing animation for the specified avatar ID.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llgetanimation/"
@@ -1885,10 +1881,6 @@
         "documentation": "Resets the script.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llresetscript/"
     },
-    "@sl-slua/global/ll.ResetTime": {
-        "documentation": "Sets the time to zero.\\nSets the internal timer to zero.",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llresettime/"
-    },
     "@sl-slua/global/ll.ReturnObjectsByID": {
         "documentation": "Return objects using their UUIDs.<br>Requires the PERMISSION_RETURN_OBJECTS permission and that the script owner owns the parcel the returned objects are in, or is an estate manager or region owner.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llreturnobjectsbyid/"
@@ -2133,10 +2125,6 @@
         "documentation": "Sets the rotation of a child prim relative to the root prim.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsetlocalrot/"
     },
-    "@sl-slua/global/ll.SetMemoryLimit": {
-        "documentation": "Requests Limit bytes to be reserved for this script.\\nReturns TRUE or FALSE indicating whether the limit was set successfully.\\nThis function has no effect if the script is running in the LSO VM.",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsetmemorylimit/"
-    },
     "@sl-slua/global/ll.SetObjectDesc": {
         "documentation": "Sets the description of the prim to Description.<br>The description field is limited to 127 characters.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsetobjectdesc/"
@@ -2232,10 +2220,6 @@
     "@sl-slua/global/ll.SetTextureAnim": {
         "documentation": "Animates a texture by setting the texture scale and offset.<br>Mode is a bitmask of animation options.<br>Face specifies which object face to animate.<br>SizeX and SizeY specify the number of horizontal and vertical frames.Start specifes the animation start point.<br>Length specifies the animation duration.<br>Rate specifies the animation playback rate.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsettextureanim/"
-    },
-    "@sl-slua/global/ll.SetTimerEvent": {
-        "documentation": "Causes the timer event to be triggered every Rate seconds.\\n Passing in 0.0 stops further timer events.",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/llsettimerevent/"
     },
     "@sl-slua/global/ll.SetTorque": {
         "documentation": "Sets the Torque acting on the script's object, in object-local coordinates if Local == TRUE (otherwise, the region reference frame is used).<br>Only works on physical objects.",
@@ -5562,8 +5546,5 @@
     },
     "@sl-slua/global/ZERO_VECTOR": {
         "documentation": "ZERO_VECTOR constant"
-    },
-    "@sl-slua/global/default": {
-        "documentation": "All scripts must have a default state, which is the first state entered when the script starts.\\nIf another state is defined before the default state, the compiler will report a syntax error."
     }
 }
