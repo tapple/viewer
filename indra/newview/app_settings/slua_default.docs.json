@@ -460,6 +460,9 @@
     "@sl-slua/global/table.clear": {
         "documentation": "Clears all elements from a table while keeping its capacity."
     },
+    "@sl-slua/global/table.shrink": {
+        "documentation": "Reduces the memory usage of the table to the minimum necessary."
+    },
     "@sl-slua/global/table.freeze": {
         "documentation": "Freezes a table, making it read-only."
     },
@@ -508,6 +511,10 @@
     "@sl-slua/global/ll.AddToLandPassList": {
         "documentation": "Add avatar ID to the land pass list, for a duration of Hours.",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lladdtolandpasslist/"
+    },
+    "@sl-slua/global/ll.AdjustDamage": {
+        "documentation": "Changes the amount of damage to be delivered by this damage event.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lladjustdamage/"
     },
     "@sl-slua/global/ll.AdjustSoundVolume": {
         "documentation": "Adjusts the volume (0.0 - 1.0) of the currently playing attached sound.<br>This function has no effect on sounds started with llTriggerSound.",
@@ -680,6 +687,78 @@
     "@sl-slua/global/ll.DetachFromAvatar": {
         "documentation": "Remove the object containing the script from the avatar.<br>Requires the PERMISSION_ATTACH runtime permission (automatically granted to attached objects).",
         "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetachfromavatar/"
+    },
+    "@sl-slua/global/ll.DetectedDamage": {
+        "documentation": "Returns a list containing the current damage for the event, the damage type and the original damage delivered.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetecteddamage/"
+    },
+    "@sl-slua/global/ll.DetectedGrab": {
+        "documentation": "Returns the grab offset of a user touching the object.<br>Returns <0.0, 0.0, 0.0> if Number is not a valid object.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedgrab/"
+    },
+    "@sl-slua/global/ll.DetectedGroup": {
+        "documentation": "Returns TRUE if detected object or agent Number has the same user group active as this object.<br>It will return FALSE if the object or agent is in the group, but the group is not active.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedgroup/"
+    },
+    "@sl-slua/global/ll.DetectedKey": {
+        "documentation": "Returns the key of detected object or avatar number.<br>Returns NULL_KEY if Number is not a valid index.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedkey/"
+    },
+    "@sl-slua/global/ll.DetectedLinkNumber": {
+        "documentation": "Returns the link position of the triggered event for touches and collisions only.<br>0 for a non-linked object, 1 for the root of a linked object, 2 for the first child, etc.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedlinknumber/"
+    },
+    "@sl-slua/global/ll.DetectedName": {
+        "documentation": "Returns the name of detected object or avatar number.<br>Returns the name of detected object number.<br>Returns empty string if Number is not a valid index.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedname/"
+    },
+    "@sl-slua/global/ll.DetectedOwner": {
+        "documentation": "Returns the key of detected object's owner.<br>Returns invalid key if Number is not a valid index.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedowner/"
+    },
+    "@sl-slua/global/ll.DetectedPos": {
+        "documentation": "Returns the position of detected object or avatar number.<br>Returns <0.0, 0.0, 0.0> if Number is not a valid index.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedpos/"
+    },
+    "@sl-slua/global/ll.DetectedRezzer": {
+        "documentation": "Returns the key for the rezzer of the detected object.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedrezzer/"
+    },
+    "@sl-slua/global/ll.DetectedRot": {
+        "documentation": "Returns the rotation of detected object or avatar number.<br>Returns <0.0, 0.0, 0.0, 1.0> if Number is not a valid offset.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedrot/"
+    },
+    "@sl-slua/global/ll.DetectedTouchBinormal": {
+        "documentation": "Returns the surface bi-normal for a triggered touch event.<br>Returns a vector that is the surface bi-normal (tangent to the surface) where the touch event was triggered.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtouchbinormal/"
+    },
+    "@sl-slua/global/ll.DetectedTouchFace": {
+        "documentation": "Returns the index of the face where the avatar clicked in a triggered touch event.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtouchface/"
+    },
+    "@sl-slua/global/ll.DetectedTouchNormal": {
+        "documentation": "Returns the surface normal for a triggered touch event.<br>Returns a vector that is the surface normal (perpendicular to the surface) where the touch event was triggered.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtouchnormal/"
+    },
+    "@sl-slua/global/ll.DetectedTouchPos": {
+        "documentation": "Returns the position, in region coordinates, where the object was touched in a triggered touch event.<br>Unless it is a HUD, in which case it returns the position relative to the attach point.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtouchpos/"
+    },
+    "@sl-slua/global/ll.DetectedTouchST": {
+        "documentation": "Returns a vector that is the surface coordinates where the prim was touched.<br>The X and Y vector positions contain the horizontal (S) and vertical (T) face coordinates respectively.<br>Each component is in the interval [0.0, 1.0].<br>TOUCH_INVALID_TEXCOORD is returned if the surface coordinates cannot be determined (e.g. when the viewer does not support this function).",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtouchst/"
+    },
+    "@sl-slua/global/ll.DetectedTouchUV": {
+        "documentation": "Returns a vector that is the texture coordinates for where the prim was touched.<br>The X and Y vector positions contain the U and V face coordinates respectively.<br>TOUCH_INVALID_TEXCOORD is returned if the touch UV coordinates cannot be determined (e.g. when the viewer does not support this function).",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtouchuv/"
+    },
+    "@sl-slua/global/ll.DetectedType": {
+        "documentation": "Returns the type (AGENT, ACTIVE, PASSIVE, SCRIPTED) of detected object.<br>Returns 0 if number is not a valid index.<br>Note that number is a bit-field, so comparisons need to be a bitwise checked. e.g.:<br>integer iType = llDetectedType(0);<br>{<br>&nbsp;// ...do stuff with the agent<br>}",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedtype/"
+    },
+    "@sl-slua/global/ll.DetectedVel": {
+        "documentation": "Returns the velocity of the detected object Number.<br>Returns<0.0, 0.0, 0.0> if Number is not a valid offset.",
+        "learn_more_link": "https://create.secondlife.com/script/slua-reference/functions/lldetectedvel/"
     },
     "@sl-slua/global/ll.Dialog": {
         "documentation": "Shows a dialog box on the avatar's screen with the message.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up to 12 strings in the list form buttons.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If a button is clicked, the name is chatted on Channel.<br>Opens a \"notify box\" in the given avatars screen displaying the message.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up to twelve buttons can be specified in a list of strings. When the user clicks a button, the name of the button is said on the specified channel.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Channels work just like llSay(), so channel 0 can be heard by everyone.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The chat originates at the object's position, not the avatar's position, even though it is said as the avatar (uses avatar's UUID and Name etc.).<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examples:<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;llDialog(who, \"Are you a boy or a girl?\", [ \"Boy\", \"Girl\" ], -4913);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;llDialog(who, \"This shows only an OK button.\", [], -192);<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;llDialog(who, \"This chats so you can 'hear' it.\", [\"Hooray\"], 0);",
@@ -4055,6 +4134,9 @@
     },
     "@sl-slua/global/PERMISSION_OVERRIDE_ANIMATIONS": {
         "documentation": "Permission to override default animations."
+    },
+    "@sl-slua/global/PERMISSION_PRIVILEGED_LAND_ACCESS": {
+        "documentation": "Grants the script privileged access to land parcel functions, such as parcel sale."
     },
     "@sl-slua/global/PERMISSION_RELEASE_OWNERSHIP": {
         "documentation": "(not yet implemented)"
