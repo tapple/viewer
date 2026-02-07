@@ -6,181 +6,233 @@
         "documentation": "Converts a string, buffer, or uuid to a uuid, returns nil if invalid"
     },
     "@sl-slua/global/tovector": {
-        "documentation": "Converts a string to a vector, returns nil if invalid",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/tovector/"
+        "documentation": "Converts a string to a vector, returns nil if invalid"
     },
     "@sl-slua/global/toquaternion": {
-        "documentation": "Converts a string to a quaternion, returns nil if invalid",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/toquaternion/"
+        "documentation": "Converts a string to a quaternion, returns nil if invalid"
     },
     "@sl-slua/global/torotation": {
         "documentation": "Converts a string to a rotation (quaternion), returns nil if invalid"
     },
     "@sl-slua/global/bit32": {
         "documentation": "Bitwise operations library.",
-        "learn_more_link": "https://create.secondlife.com/script/slua-reference/bit32/"
+        "learn_more_link": "https://luau.org/library/#bit32-library"
     },
     "@sl-slua/global/bit32.arshift": {
-        "documentation": "Shifts n by i bits to the right. If i is negative, a left shift is performed.<br>Does an arithmetic shift: The most significant bit of n is propagated during the shift."
+        "documentation": "Shifts n by i bits to the right. If i is negative, a left shift is performed.<br>Does an arithmetic shift: The most significant bit of n is propagated during the shift.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#arshift"
     },
     "@sl-slua/global/bit32.band": {
-        "documentation": "Performs a bitwise AND operation on input numbers."
+        "documentation": "Performs a bitwise AND operation on input numbers.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#band"
     },
     "@sl-slua/global/bit32.bnot": {
-        "documentation": "Returns the bitwise negation of the input number."
+        "documentation": "Returns the bitwise negation of the input number.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#bnot"
     },
     "@sl-slua/global/bit32.bor": {
-        "documentation": "Performs a bitwise OR operation on input numbers."
+        "documentation": "Performs a bitwise OR operation on input numbers.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#bor"
     },
     "@sl-slua/global/bit32.bxor": {
-        "documentation": "Performs a bitwise XOR operation on input numbers."
+        "documentation": "Performs a bitwise XOR operation on input numbers.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#bxor"
     },
     "@sl-slua/global/bit32.btest": {
-        "documentation": "Performs a bitwise AND operation on input numbers.<br>Returns true if result is non-zero."
+        "documentation": "Performs a bitwise AND operation on input numbers.<br>Returns true if result is non-zero.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#btest"
     },
     "@sl-slua/global/bit32.extract": {
-        "documentation": "Extracts bits from n at position field with width"
+        "documentation": "Extracts bits from n at position field with width",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#extract"
     },
     "@sl-slua/global/bit32.lrotate": {
-        "documentation": "Rotates n by i bits to the left. If i is negative, a right rotate is performed."
+        "documentation": "Rotates n by i bits to the left. If i is negative, a right rotate is performed.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#lrotate"
     },
     "@sl-slua/global/bit32.lshift": {
-        "documentation": "Shifts n by i bits to the left. If i is negative, a right shift is performed."
+        "documentation": "Shifts n by i bits to the left. If i is negative, a right shift is performed.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#lshift"
     },
     "@sl-slua/global/bit32.replace": {
-        "documentation": "Replaces bits in n at position field with width using value v"
+        "documentation": "Replaces bits in n at position field with width using value v",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#replace"
     },
     "@sl-slua/global/bit32.rrotate": {
-        "documentation": "Rotates n by i bits to the right. If i is negative, a left rotate is performed."
+        "documentation": "Rotates n by i bits to the right. If i is negative, a left rotate is performed.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#rrotate"
     },
     "@sl-slua/global/bit32.rshift": {
-        "documentation": "Shifts n by i bits to the right. If i is negative, a left shift is performed."
+        "documentation": "Shifts n by i bits to the right. If i is negative, a left shift is performed.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#rshift"
     },
     "@sl-slua/global/bit32.countlz": {
-        "documentation": "Count leading zeros"
+        "documentation": "Count leading zeros",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#countlz"
     },
     "@sl-slua/global/bit32.countrz": {
-        "documentation": "Count trailing zeros"
+        "documentation": "Count trailing zeros",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#countrz"
     },
     "@sl-slua/global/bit32.byteswap": {
-        "documentation": "Swap byte order"
+        "documentation": "Swap byte order",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/bit32#byteswap"
     },
     "@sl-slua/global/buffer": {
-        "documentation": "Buffer manipulation library for binary data."
+        "documentation": "Buffer manipulation library for binary data.",
+        "learn_more_link": "https://luau.org/library/#buffer-library"
     },
     "@sl-slua/global/buffer.create": {
-        "documentation": "Creates a buffer of the requested size with all bytes initialized to 0."
+        "documentation": "Creates a buffer of the requested size with all bytes initialized to 0.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#create"
     },
     "@sl-slua/global/buffer.fromstring": {
-        "documentation": "Creates a buffer initialized to the contents of the string."
+        "documentation": "Creates a buffer initialized to the contents of the string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#fromstring"
     },
     "@sl-slua/global/buffer.tostring": {
-        "documentation": "Returns the buffer data as a string."
+        "documentation": "Returns the buffer data as a string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#tostring"
     },
     "@sl-slua/global/buffer.readi8": {
-        "documentation": "Reads a signed 8-bit integer from the buffer at the given offset."
+        "documentation": "Reads a signed 8-bit integer from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readi8"
     },
     "@sl-slua/global/buffer.readu8": {
-        "documentation": "Reads an unsigned 8-bit integer from the buffer at the given offset."
+        "documentation": "Reads an unsigned 8-bit integer from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readu8"
     },
     "@sl-slua/global/buffer.readi16": {
-        "documentation": "Reads a signed 16-bit integer from the buffer at the given offset."
+        "documentation": "Reads a signed 16-bit integer from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readi16"
     },
     "@sl-slua/global/buffer.readu16": {
-        "documentation": "Reads an unsigned 16-bit integer from the buffer at the given offset."
+        "documentation": "Reads an unsigned 16-bit integer from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readu16"
     },
     "@sl-slua/global/buffer.readi32": {
-        "documentation": "Reads a signed 32-bit integer from the buffer at the given offset."
+        "documentation": "Reads a signed 32-bit integer from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readi32"
     },
     "@sl-slua/global/buffer.readu32": {
-        "documentation": "Reads an unsigned 32-bit integer from the buffer at the given offset."
+        "documentation": "Reads an unsigned 32-bit integer from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readu32"
     },
     "@sl-slua/global/buffer.readf32": {
-        "documentation": "Reads a 32-bit floating-point number from the buffer at the given offset."
+        "documentation": "Reads a 32-bit floating-point number from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readf32"
     },
     "@sl-slua/global/buffer.readf64": {
-        "documentation": "Reads a 64-bit floating-point number from the buffer at the given offset."
+        "documentation": "Reads a 64-bit floating-point number from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readf64"
     },
     "@sl-slua/global/buffer.writei8": {
-        "documentation": "Writes a signed 8-bit integer to the buffer at the given offset."
+        "documentation": "Writes a signed 8-bit integer to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writei8"
     },
     "@sl-slua/global/buffer.writeu8": {
-        "documentation": "Writes an unsigned 8-bit integer to the buffer at the given offset."
+        "documentation": "Writes an unsigned 8-bit integer to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writeu8"
     },
     "@sl-slua/global/buffer.writei16": {
-        "documentation": "Writes a signed 16-bit integer to the buffer at the given offset."
+        "documentation": "Writes a signed 16-bit integer to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writei16"
     },
     "@sl-slua/global/buffer.writeu16": {
-        "documentation": "Writes an unsigned 16-bit integer to the buffer at the given offset."
+        "documentation": "Writes an unsigned 16-bit integer to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writeu16"
     },
     "@sl-slua/global/buffer.writei32": {
-        "documentation": "Writes a signed 32-bit integer to the buffer at the given offset."
+        "documentation": "Writes a signed 32-bit integer to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writei32"
     },
     "@sl-slua/global/buffer.writeu32": {
-        "documentation": "Writes an unsigned 32-bit integer to the buffer at the given offset."
+        "documentation": "Writes an unsigned 32-bit integer to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writeu32"
     },
     "@sl-slua/global/buffer.writef32": {
-        "documentation": "Writes a 32-bit floating-point number to the buffer at the given offset."
+        "documentation": "Writes a 32-bit floating-point number to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writef32"
     },
     "@sl-slua/global/buffer.writef64": {
-        "documentation": "Writes a 64-bit floating-point number to the buffer at the given offset."
+        "documentation": "Writes a 64-bit floating-point number to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writef64"
     },
     "@sl-slua/global/buffer.readstring": {
-        "documentation": "Reads a string of the given length from the buffer at the specified offset."
+        "documentation": "Reads a string of the given length from the buffer at the specified offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readstring"
     },
     "@sl-slua/global/buffer.writestring": {
-        "documentation": "Writes data from a string into the buffer at the specified offset."
+        "documentation": "Writes data from a string into the buffer at the specified offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writestring"
     },
     "@sl-slua/global/buffer.len": {
-        "documentation": "Returns the size of the buffer in bytes."
+        "documentation": "Returns the size of the buffer in bytes.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#len"
     },
     "@sl-slua/global/buffer.copy": {
-        "documentation": "Copies bytes from the source buffer into the target buffer."
+        "documentation": "Copies bytes from the source buffer into the target buffer.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#copy"
     },
     "@sl-slua/global/buffer.fill": {
-        "documentation": "Fills the buffer with the specified value starting at the given offset."
+        "documentation": "Fills the buffer with the specified value starting at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#fill"
     },
     "@sl-slua/global/buffer.readbits": {
-        "documentation": "Reads up to 32 bits from the buffer at the given offset."
+        "documentation": "Reads up to 32 bits from the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#readbits"
     },
     "@sl-slua/global/buffer.writebits": {
-        "documentation": "Writes up to 32 bits to the buffer at the given offset."
+        "documentation": "Writes up to 32 bits to the buffer at the given offset.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/buffer#writebits"
     },
     "@sl-slua/global/coroutine": {
-        "documentation": "Coroutine manipulation library."
+        "documentation": "Coroutine manipulation library.",
+        "learn_more_link": "https://luau.org/library/#coroutine-library"
     },
     "@sl-slua/global/coroutine.create": {
-        "documentation": "Returns a new coroutine that, when resumed, will run function f."
+        "documentation": "Returns a new coroutine that, when resumed, will run function f.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#create"
     },
     "@sl-slua/global/coroutine.resume": {
-        "documentation": "Resumes a coroutine, returning true and results if successful, or false and an error."
+        "documentation": "Resumes a coroutine, returning true and results if successful, or false and an error.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#resume"
     },
     "@sl-slua/global/coroutine.running": {
-        "documentation": "Returns the currently running coroutine, or nil if called from in the main coroutine."
+        "documentation": "Returns the currently running coroutine, or nil if called from in the main coroutine.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#running"
     },
     "@sl-slua/global/coroutine.status": {
-        "documentation": "Returns the status of the coroutine: \"running\", \"suspended\", \"normal\", or \"dead\"."
+        "documentation": "Returns the status of the coroutine: \"running\", \"suspended\", \"normal\", or \"dead\".",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#status"
     },
     "@sl-slua/global/coroutine.wrap": {
-        "documentation": "Creates a coroutine and returns a function that resumes it."
+        "documentation": "Creates a coroutine and returns a function that resumes it.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#wrap"
     },
     "@sl-slua/global/coroutine.yield": {
-        "documentation": "Yields the current coroutine, passing arguments to the resuming code."
+        "documentation": "Yields the current coroutine, passing arguments to the resuming code.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#yield"
     },
     "@sl-slua/global/coroutine.isyieldable": {
-        "documentation": "Returns true if the currently running coroutine can yield."
+        "documentation": "Returns true if the currently running coroutine can yield.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#isyieldable"
     },
     "@sl-slua/global/coroutine.close": {
-        "documentation": "Closes a coroutine, returning true if successful or false and an error."
+        "documentation": "Closes a coroutine, returning true if successful or false and an error.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/coroutine#close"
     },
     "@sl-slua/global/debug": {
-        "documentation": "Debug library for introspection."
+        "documentation": "Debug library for introspection.",
+        "learn_more_link": "https://luau.org/library/#debug-library"
     },
     "@sl-slua/global/debug.info": {
-        "documentation": "Returns information about a stack frame or function based on specified format."
+        "documentation": "Returns information about a stack frame or function based on specified format.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/debug#info"
     },
     "@sl-slua/global/debug.traceback": {
-        "documentation": "Returns a human-readable call stack starting from the specified level."
+        "documentation": "Returns a human-readable call stack starting from the specified level.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/debug#traceback"
     },
     "@sl-slua/global/llbase64": {
         "documentation": "Base64 encoding/decoding library.",
@@ -227,139 +279,184 @@
         "documentation": "Decodes a JSON string to a Lua value, preserving SL types. Raises an error if JSON is invalid."
     },
     "@sl-slua/global/math": {
-        "documentation": "Mathematical functions library."
+        "documentation": "Mathematical functions library.",
+        "learn_more_link": "https://luau.org/library/#math-library"
     },
     "@sl-slua/global/math.pi": {
-        "documentation": "Value: 3.141592653589793<br>The value of pi"
+        "documentation": "Value: 3.141592653589793<br>The value of pi",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#pi"
     },
     "@sl-slua/global/math.huge": {
-        "documentation": "Value: inf<br>A value larger than any other numeric value (infinity)"
+        "documentation": "Value: inf<br>A value larger than any other numeric value (infinity)",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#huge"
     },
     "@sl-slua/global/math.abs": {
-        "documentation": "Returns the absolute value of n."
+        "documentation": "Returns the absolute value of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#abs"
     },
     "@sl-slua/global/math.acos": {
-        "documentation": "Returns the arc cosine of n in radians."
+        "documentation": "Returns the arc cosine of n in radians.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#acos"
     },
     "@sl-slua/global/math.asin": {
-        "documentation": "Returns the arc sine of n in radians."
+        "documentation": "Returns the arc sine of n in radians.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#asin"
     },
     "@sl-slua/global/math.atan": {
-        "documentation": "Returns the arc tangent of n in radians."
+        "documentation": "Returns the arc tangent of n in radians.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#atan"
     },
     "@sl-slua/global/math.atan2": {
-        "documentation": "Returns the arc tangent of y/x in radians, using the signs to determine the quadrant."
+        "documentation": "Returns the arc tangent of y/x in radians, using the signs to determine the quadrant.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#atan2"
     },
     "@sl-slua/global/math.ceil": {
-        "documentation": "Returns the smallest integer larger than or equal to n."
+        "documentation": "Returns the smallest integer larger than or equal to n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#ceil"
     },
     "@sl-slua/global/math.clamp": {
-        "documentation": "Returns n clamped between min and max."
+        "documentation": "Returns n clamped between min and max.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#clamp"
     },
     "@sl-slua/global/math.cos": {
-        "documentation": "Returns the cosine of n (n is in radians)."
+        "documentation": "Returns the cosine of n (n is in radians).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#cos"
     },
     "@sl-slua/global/math.cosh": {
-        "documentation": "Returns the hyperbolic cosine of n."
+        "documentation": "Returns the hyperbolic cosine of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#cosh"
     },
     "@sl-slua/global/math.deg": {
-        "documentation": "Converts n from radians to degrees."
+        "documentation": "Converts n from radians to degrees.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#deg"
     },
     "@sl-slua/global/math.exp": {
-        "documentation": "Returns the base-e exponent of n."
+        "documentation": "Returns the base-e exponent of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#exp"
     },
     "@sl-slua/global/math.floor": {
-        "documentation": "Returns the largest integer smaller than or equal to n."
+        "documentation": "Returns the largest integer smaller than or equal to n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#floor"
     },
     "@sl-slua/global/math.fmod": {
-        "documentation": "Returns the remainder of x modulo y, rounded towards zero."
+        "documentation": "Returns the remainder of x modulo y, rounded towards zero.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#fmod"
     },
     "@sl-slua/global/math.frexp": {
-        "documentation": "Returns m and e such that n = m * 2^e."
+        "documentation": "Returns m and e such that n = m * 2^e.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#frexp"
     },
     "@sl-slua/global/math.ldexp": {
-        "documentation": "Returns s * 2^e."
+        "documentation": "Returns s * 2^e.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#ldexp"
     },
     "@sl-slua/global/math.lerp": {
-        "documentation": "Linearly interpolates between a and b using factor t."
+        "documentation": "Linearly interpolates between a and b using factor t.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#lerp"
     },
     "@sl-slua/global/math.log": {
-        "documentation": "Returns the logarithm of n in the given base (default e)."
+        "documentation": "Returns the logarithm of n in the given base (default e).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#log"
     },
     "@sl-slua/global/math.log10": {
-        "documentation": "Returns the base-10 logarithm of n."
+        "documentation": "Returns the base-10 logarithm of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#log10"
     },
     "@sl-slua/global/math.map": {
-        "documentation": "Maps n from input range to output range."
+        "documentation": "Maps n from input range to output range.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#map"
     },
     "@sl-slua/global/math.max": {
-        "documentation": "Returns the maximum value from the given numbers."
+        "documentation": "Returns the maximum value from the given numbers.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#max"
     },
     "@sl-slua/global/math.min": {
-        "documentation": "Returns the minimum value from the given numbers."
+        "documentation": "Returns the minimum value from the given numbers.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#min"
     },
     "@sl-slua/global/math.modf": {
-        "documentation": "Returns the integer and fractional parts of n."
+        "documentation": "Returns the integer and fractional parts of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#modf"
     },
     "@sl-slua/global/math.noise": {
-        "documentation": "Returns Perlin noise value for the point (x, y, z)."
+        "documentation": "Returns Perlin noise value for the point (x, y, z).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#noise"
     },
     "@sl-slua/global/math.pow": {
-        "documentation": "Returns base to the power of exponent."
+        "documentation": "Returns base to the power of exponent.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#pow"
     },
     "@sl-slua/global/math.rad": {
-        "documentation": "Converts n from degrees to radians."
+        "documentation": "Converts n from degrees to radians.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#rad"
     },
     "@sl-slua/global/math.random": {
-        "documentation": "Returns a random number within the given range."
+        "documentation": "Returns a random number within the given range.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#random"
     },
     "@sl-slua/global/math.randomseed": {
-        "documentation": "Sets the seed for the random number generator."
+        "documentation": "Sets the seed for the random number generator.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#randomseed"
     },
     "@sl-slua/global/math.round": {
-        "documentation": "Rounds n to the nearest integer."
+        "documentation": "Rounds n to the nearest integer.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#round"
     },
     "@sl-slua/global/math.sign": {
-        "documentation": "Returns -1 if n is negative, 1 if positive, and 0 if zero."
+        "documentation": "Returns -1 if n is negative, 1 if positive, and 0 if zero.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#sign"
     },
     "@sl-slua/global/math.sin": {
-        "documentation": "Returns the sine of n (n is in radians)."
+        "documentation": "Returns the sine of n (n is in radians).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#sin"
     },
     "@sl-slua/global/math.sinh": {
-        "documentation": "Returns the hyperbolic sine of n."
+        "documentation": "Returns the hyperbolic sine of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#sinh"
     },
     "@sl-slua/global/math.sqrt": {
-        "documentation": "Returns the square root of n."
+        "documentation": "Returns the square root of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#sqrt"
     },
     "@sl-slua/global/math.tan": {
-        "documentation": "Returns the tangent of n (n is in radians)."
+        "documentation": "Returns the tangent of n (n is in radians).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#tan"
     },
     "@sl-slua/global/math.tanh": {
-        "documentation": "Returns the hyperbolic tangent of n."
+        "documentation": "Returns the hyperbolic tangent of n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#tanh"
     },
     "@sl-slua/global/math.isnan": {
-        "documentation": "Returns true if n is NaN."
+        "documentation": "Returns true if n is NaN.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#isnan"
     },
     "@sl-slua/global/math.isinf": {
-        "documentation": "Returns true if n is infinite."
+        "documentation": "Returns true if n is infinite.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#isinf"
     },
     "@sl-slua/global/math.isfinite": {
-        "documentation": "Returns true if n is finite."
+        "documentation": "Returns true if n is finite.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/math#isfinite"
     },
     "@sl-slua/global/os": {
-        "documentation": "Operating system facilities library."
+        "documentation": "Operating system facilities library.",
+        "learn_more_link": "https://luau.org/library/#os-library"
     },
     "@sl-slua/global/os.clock": {
-        "documentation": "Returns a high-precision timestamp in seconds for measuring durations."
+        "documentation": "Returns a high-precision timestamp in seconds for measuring durations.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/os#clock"
     },
     "@sl-slua/global/os.date": {
-        "documentation": "Returns a table or string representation of the time based on the provided format."
+        "documentation": "Returns a table or string representation of the time based on the provided format.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/os#date"
     },
     "@sl-slua/global/os.difftime": {
-        "documentation": "Returns the difference in seconds between two timestamps. Same as a - b."
+        "documentation": "Returns the difference in seconds between two timestamps. Same as a - b.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/os#difftime"
     },
     "@sl-slua/global/os.time": {
-        "documentation": "Returns the current Unix timestamp or the timestamp of the given date."
+        "documentation": "Returns the current Unix timestamp or the timestamp of the given date.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/os#time"
     },
     "@sl-slua/global/quaternion": {
         "documentation": "Creates a new quaternion with the given component values. Alias of quaternion.create."
@@ -425,136 +522,180 @@
         "documentation": "Computes the up vector from the quaternion."
     },
     "@sl-slua/global/string": {
-        "documentation": "String manipulation library."
+        "documentation": "String manipulation library.",
+        "learn_more_link": "https://luau.org/library/#string-library"
     },
     "@sl-slua/global/string.byte": {
-        "documentation": "Returns the numeric code of every byte in the input string within the given range."
+        "documentation": "Returns the numeric code of every byte in the input string within the given range.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#byte"
     },
     "@sl-slua/global/string.char": {
-        "documentation": "Returns a string containing characters for the given byte values."
+        "documentation": "Returns a string containing characters for the given byte values.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#char"
     },
     "@sl-slua/global/string.find": {
-        "documentation": "Finds the first instance of the pattern in the string."
+        "documentation": "Finds the first instance of the pattern in the string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#find"
     },
     "@sl-slua/global/string.format": {
-        "documentation": "Formats input values into a string using printf-style format specifiers."
+        "documentation": "Formats input values into a string using printf-style format specifiers.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#format"
     },
     "@sl-slua/global/string.gmatch": {
-        "documentation": "Returns an iterator function for pattern matches"
+        "documentation": "Returns an iterator function for pattern matches",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#gmatch"
     },
     "@sl-slua/global/string.gsub": {
-        "documentation": "Performs pattern-based substitution in a string."
+        "documentation": "Performs pattern-based substitution in a string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#gsub"
     },
     "@sl-slua/global/string.len": {
-        "documentation": "Returns the number of bytes in the string. Identical to #s"
+        "documentation": "Returns the number of bytes in the string. Identical to #s",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#len"
     },
     "@sl-slua/global/string.lower": {
-        "documentation": "Returns a lowercase version of the input string."
+        "documentation": "Returns a lowercase version of the input string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#lower"
     },
     "@sl-slua/global/string.match": {
-        "documentation": "Finds and returns matches for a pattern in the input string."
+        "documentation": "Finds and returns matches for a pattern in the input string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#match"
     },
     "@sl-slua/global/string.pack": {
-        "documentation": "Packs values into a binary string."
+        "documentation": "Packs values into a binary string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#pack"
     },
     "@sl-slua/global/string.packsize": {
-        "documentation": "Returns the size of a packed string for the given format."
+        "documentation": "Returns the size of a packed string for the given format.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#packsize"
     },
     "@sl-slua/global/string.rep": {
-        "documentation": "Returns the input string repeated a given number of times."
+        "documentation": "Returns the input string repeated a given number of times.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#rep"
     },
     "@sl-slua/global/string.reverse": {
-        "documentation": "Returns the input string with bytes in reverse order."
+        "documentation": "Returns the input string with bytes in reverse order.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#reverse"
     },
     "@sl-slua/global/string.split": {
-        "documentation": "Splits a string by separator. Returns a list of substrings."
+        "documentation": "Splits a string by separator. Returns a list of substrings.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#split"
     },
     "@sl-slua/global/string.sub": {
-        "documentation": "Returns a substring from the given range."
+        "documentation": "Returns a substring from the given range.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#sub"
     },
     "@sl-slua/global/string.unpack": {
-        "documentation": "Decodes a binary string using a pack format."
+        "documentation": "Decodes a binary string using a pack format.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#unpack"
     },
     "@sl-slua/global/string.upper": {
-        "documentation": "Returns an uppercase version of the input string."
+        "documentation": "Returns an uppercase version of the input string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/string#upper"
     },
     "@sl-slua/global/table": {
-        "documentation": "Table manipulation library. Tables are collections of key-value pairs."
+        "documentation": "Table manipulation library. Tables are collections of key-value pairs.",
+        "learn_more_link": "https://luau.org/library/#table-library"
     },
     "@sl-slua/global/table.concat": {
-        "documentation": "Joins an array of strings into one string, with an optional separator."
+        "documentation": "Joins an array of strings into one string, with an optional separator.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#concat"
     },
     "@sl-slua/global/table.foreach": {
-        "documentation": "Iterates over all key-value pairs in the table (deprecated)."
+        "documentation": "Iterates over all key-value pairs in the table (deprecated).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#foreach"
     },
     "@sl-slua/global/table.foreachi": {
-        "documentation": "Iterates over all index-value pairs in the array (deprecated)."
+        "documentation": "Iterates over all index-value pairs in the array (deprecated).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#foreachi"
     },
     "@sl-slua/global/table.getn": {
-        "documentation": "Returns the length of an array (deprecated; use # instead)."
+        "documentation": "Returns the length of an array (deprecated; use # instead).",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#getn"
     },
     "@sl-slua/global/table.maxn": {
-        "documentation": "Returns the highest numeric key in the table."
+        "documentation": "Returns the highest numeric key in the table.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#maxn"
     },
     "@sl-slua/global/table.insert": {
-        "documentation": "Inserts an element at the specified index, or at the end of the array."
+        "documentation": "Inserts an element at the specified index, or at the end of the array.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#insert"
     },
     "@sl-slua/global/table.remove": {
-        "documentation": "Removes and returns the element at the specified index from the array, or from the end of the array."
+        "documentation": "Removes and returns the element at the specified index from the array, or from the end of the array.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#remove"
     },
     "@sl-slua/global/table.sort": {
-        "documentation": "Sorts an array in place."
+        "documentation": "Sorts an array in place.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#sort"
     },
     "@sl-slua/global/table.pack": {
-        "documentation": "Packs multiple arguments into a new array with length field n."
+        "documentation": "Packs multiple arguments into a new array with length field n.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#pack"
     },
     "@sl-slua/global/table.unpack": {
-        "documentation": "Unpacks array elements into multiple return values."
+        "documentation": "Unpacks array elements into multiple return values.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#unpack"
     },
     "@sl-slua/global/table.move": {
-        "documentation": "Inserts elements [i..j] from src array into dest array at [d]."
+        "documentation": "Inserts elements [i..j] from src array into dest array at [d].",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#move"
     },
     "@sl-slua/global/table.create": {
-        "documentation": "Creates a new table with pre-allocated array capacity, optionally filled."
+        "documentation": "Creates a new table with pre-allocated array capacity, optionally filled.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#create"
     },
     "@sl-slua/global/table.find": {
-        "documentation": "Finds the first occurrence of a value in the array and returns its index."
+        "documentation": "Finds the first occurrence of a value in the array and returns its index.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#find"
     },
     "@sl-slua/global/table.clear": {
-        "documentation": "Clears all elements from a table while keeping its capacity."
+        "documentation": "Clears all elements from a table while keeping its capacity.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#clear"
     },
     "@sl-slua/global/table.shrink": {
-        "documentation": "Reduces the memory usage of the table to the minimum necessary."
+        "documentation": "Reduces the memory usage of the table to the minimum necessary.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#shrink"
     },
     "@sl-slua/global/table.freeze": {
-        "documentation": "Freezes a table, making it read-only."
+        "documentation": "Freezes a table, making it read-only.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#freeze"
     },
     "@sl-slua/global/table.isfrozen": {
-        "documentation": "Returns true if a table is frozen."
+        "documentation": "Returns true if a table is frozen.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#isfrozen"
     },
     "@sl-slua/global/table.clone": {
-        "documentation": "Creates a shallow copy of the table."
+        "documentation": "Creates a shallow copy of the table.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/table#clone"
     },
     "@sl-slua/global/utf8": {
-        "documentation": "UTF-8 support library."
+        "documentation": "UTF-8 support library.",
+        "learn_more_link": "https://luau.org/library/#utf8-library"
     },
     "@sl-slua/global/utf8.charpattern": {
-        "documentation": "Value: \"[\\x00-\\x7F\\xC2-\\xF4][\\x80-\\xBF]*\"<br>Pattern that matches exactly one UTF-8 byte sequence"
+        "documentation": "Value: \"[\\x00-\\x7F\\xC2-\\xF4][\\x80-\\xBF]*\"<br>Pattern that matches exactly one UTF-8 byte sequence",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/utf8#charpattern"
     },
     "@sl-slua/global/utf8.char": {
-        "documentation": "Creates a string from Unicode codepoints."
+        "documentation": "Creates a string from Unicode codepoints.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/utf8#char"
     },
     "@sl-slua/global/utf8.codes": {
-        "documentation": "Returns an iterator that produces the byte offset and Unicode codepoint for each character in the string."
+        "documentation": "Returns an iterator that produces the byte offset and Unicode codepoint for each character in the string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/utf8#codes"
     },
     "@sl-slua/global/utf8.codepoint": {
-        "documentation": "Returns the Unicode codepoints in the specified range of the string."
+        "documentation": "Returns the Unicode codepoints in the specified range of the string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/utf8#codepoint"
     },
     "@sl-slua/global/utf8.len": {
-        "documentation": "Returns the number of Unicode codepoints in the specified range of the string, or nil and error index."
+        "documentation": "Returns the number of Unicode codepoints in the specified range of the string, or nil and error index.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/utf8#len"
     },
     "@sl-slua/global/utf8.offset": {
-        "documentation": "Returns the byte offset of the nth Unicode codepoint in the string."
+        "documentation": "Returns the byte offset of the nth Unicode codepoint in the string.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/utf8#offset"
     },
     "@sl-slua/global/uuid": {
         "documentation": "Creates a new uuid from a string, buffer, or existing uuid. Returns nil if the string is not a valid UUID. Throws an error if the buffer is shorter than 16 bytes. Alias of uuid.create"
@@ -563,55 +704,72 @@
         "documentation": "Creates a new uuid from a string, buffer, or existing uuid. Returns nil if the string is not a valid UUID. Throws an error if the buffer is shorter than 16 bytes."
     },
     "@sl-slua/global/vector": {
-        "documentation": "Creates a new vector with the given component values. Alias of vector.create."
+        "documentation": "Creates a new vector with the given component values. Alias of vector.create.",
+        "learn_more_link": "https://luau.org/library/#vector-library"
     },
     "@sl-slua/global/vector.zero": {
-        "documentation": "Value: vector(0, 0, 0)<br>Constant vector with all components set to 0."
+        "documentation": "Value: vector(0, 0, 0)<br>Constant vector with all components set to 0.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#zero"
     },
     "@sl-slua/global/vector.one": {
-        "documentation": "Value: vector(1, 1, 1)<br>Constant vector with all components set to 1."
+        "documentation": "Value: vector(1, 1, 1)<br>Constant vector with all components set to 1.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#one"
     },
     "@sl-slua/global/vector.create": {
-        "documentation": "Creates a new vector with the given component values."
+        "documentation": "Creates a new vector with the given component values.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#create"
     },
     "@sl-slua/global/vector.magnitude": {
-        "documentation": "Computes the magnitude of the vector."
+        "documentation": "Computes the magnitude of the vector.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#magnitude"
     },
     "@sl-slua/global/vector.normalize": {
-        "documentation": "Computes the normalized version (unit vector) of the vector."
+        "documentation": "Computes the normalized version (unit vector) of the vector.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#normalize"
     },
     "@sl-slua/global/vector.cross": {
-        "documentation": "Computes the cross product of two vectors."
+        "documentation": "Computes the cross product of two vectors.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#cross"
     },
     "@sl-slua/global/vector.dot": {
-        "documentation": "Computes the dot product of two vectors."
+        "documentation": "Computes the dot product of two vectors.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#dot"
     },
     "@sl-slua/global/vector.angle": {
-        "documentation": "Computes the angle between two vectors in radians. The axis, if specified, is used to determine the sign of the angle."
+        "documentation": "Computes the angle between two vectors in radians. The axis, if specified, is used to determine the sign of the angle.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#angle"
     },
     "@sl-slua/global/vector.floor": {
-        "documentation": "Applies math.floor to each component of the vector."
+        "documentation": "Applies math.floor to each component of the vector.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#floor"
     },
     "@sl-slua/global/vector.ceil": {
-        "documentation": "Applies math.ceil to each component of the vector."
+        "documentation": "Applies math.ceil to each component of the vector.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#ceil"
     },
     "@sl-slua/global/vector.abs": {
-        "documentation": "Applies math.abs to each component of the vector."
+        "documentation": "Applies math.abs to each component of the vector.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#abs"
     },
     "@sl-slua/global/vector.sign": {
-        "documentation": "Applies math.sign to each component of the vector."
+        "documentation": "Applies math.sign to each component of the vector.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#sign"
     },
     "@sl-slua/global/vector.clamp": {
-        "documentation": "Clamps each component of the vector between min and max values."
+        "documentation": "Clamps each component of the vector between min and max values.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#clamp"
     },
     "@sl-slua/global/vector.max": {
-        "documentation": "Applies math.max to each component of the vectors."
+        "documentation": "Applies math.max to each component of the vectors.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#max"
     },
     "@sl-slua/global/vector.min": {
-        "documentation": "Applies math.max to each component of the vectors."
+        "documentation": "Applies math.max to each component of the vectors.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#min"
     },
     "@sl-slua/global/vector.lerp": {
-        "documentation": "Linearly interpolates between a and b using factor t."
+        "documentation": "Linearly interpolates between a and b using factor t.",
+        "learn_more_link": "https://create.roblox.com/docs/reference/engine/libraries/vector#lerp"
     },
     "@sl-slua/global/ll": {
         "documentation": "Library for functions shared between LSL and SLua."
